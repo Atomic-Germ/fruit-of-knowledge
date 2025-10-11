@@ -9,8 +9,7 @@ BOOK_DIR ?= book
 FAIL_ON_ERROR ?= 0
 
 # Default PDF engine to the mactex xelatex installation; can be overridden by environment
-PDF_ENGINE ?= $(TEXBIN)/xelatex
-export PDF_ENGINE
+PDF_ENGINE ?= xelatex
 OUT_DIR ?= out
 TEST_OUT_DIR ?= $(OUT_DIR)/tests
 CONVERT_SCRIPT ?= scripts/convert_spread.sh
