@@ -7,6 +7,7 @@ right_sources: ["Matt 5:38–42 (ASV)"]
 left_sources:
   - {title: Stand your ground; respond in kind to deter harm, type: paraphrase, permission: none}
 updated: 2025-10-11
+public_only_check: ok
 ---
 
 # Non‑Retaliation

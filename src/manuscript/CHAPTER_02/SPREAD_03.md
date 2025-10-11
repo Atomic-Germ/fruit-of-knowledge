@@ -7,6 +7,7 @@ right_sources: ["Luke 10:29–37 (ASV)"]
 left_sources:
   - {title: Help your own first; outsiders aren’t your responsibility, type: paraphrase, permission: none}
 updated: 2025-10-11
+public_only_check: ok
 ---
 
 # Who Is My Neighbor?

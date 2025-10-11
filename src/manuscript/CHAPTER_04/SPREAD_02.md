@@ -7,6 +7,7 @@ right_sources: ["Mark 12:41–44 (ASV)", "Luke 21:1–4 (ASV)"]
 left_sources:
   - {title: The amount matters most, type: paraphrase, permission: none}
 updated: 2025-10-11
+public_only_check: ok
 ---
 
 # The Widow’s Gift

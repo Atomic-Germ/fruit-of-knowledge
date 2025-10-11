@@ -66,3 +66,12 @@ Automated edits applied (2025-10-11):
 - Set `public_only_check: ok` for `CHAPTER_01/SPREAD_01.md` (previously `pending`).
 - Removed duplicate `public_only_check` keys in multiple spreads and normalized `updated` metadata to `2025-10-11` for files edited.
 - Added `permission: none` to inline `left_sources` entries that lacked permission fields across many spreads to make left-source permission metadata explicit.
+ - Added `permission: none` to inline `left_sources` entries that lacked permission fields across many spreads to make left-source permission metadata explicit.
+ - Added `public_only_check: ok` to the following spreads as part of the automated standardization pass: 
+   - CHAPTER_02/SPREAD_02.md (enemies-non-retaliation)
+   - CHAPTER_02/SPREAD_03.md (enemies-who-is-my-neighbor)
+   - CHAPTER_03/SPREAD_02.md (money-anxiety-and-provision)
+   - CHAPTER_03/SPREAD_03.md (money-rich-fool-and-enough)
+   - CHAPTER_04/SPREAD_02.md (generosity-widows-gift)
+   - CHAPTER_05/SPREAD_02.md (status-last-and-first)
+   - CHAPTER_07/SPREAD_02.md (judging-reconcile-first)

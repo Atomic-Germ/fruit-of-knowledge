@@ -7,6 +7,7 @@ right_sources: ["Luke 12:13–21 (ASV)"]
 left_sources:
   - {title: Maximize returns; bigger stores mean safety, type: paraphrase, permission: none}
 updated: 2025-10-11
+public_only_check: ok
 ---
 
 # The Rich Fool and ‘Enough’

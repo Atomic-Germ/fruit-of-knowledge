@@ -7,6 +7,7 @@ right_sources: ["Matt 5:23–26 (ASV)"]
 left_sources:
   - {title: Worship/mission comes first; conflicts can wait, type: paraphrase, permission: none}
 updated: 2025-10-11
+public_only_check: ok
 ---
 
 # Reconcile First
