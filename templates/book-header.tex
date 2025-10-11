@@ -7,7 +7,10 @@
 \usepackage{paracol}
 \usepackage{geometry}
 \usepackage{microtype}
-\usepackage{hyperref}
+% Hyperref temporarily disabled for combined book build to avoid
+% PDF string/TOC issues during automated concatenation. Re-enable
+% after sanitizing section titles or when using safe PDF string options.
+% \usepackage{hyperref}
 \usepackage{parskip}
 \geometry{margin=1in}
 \setlength{\parskip}{6pt}
