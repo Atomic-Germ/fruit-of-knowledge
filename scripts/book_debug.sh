@@ -13,7 +13,7 @@ for f in $(find src/manuscript -name '*.md' | sort); do
   bn=$(echo "$f" | sed 's#src/manuscript/##; s#/#_#g')
   bn="${bn%.md}.tex"
   echo "  $f -> $FRAG_DIR/$bn"
-  "$PANDOC" "$f" --from markdown+yaml_metadata_block --lua-filter=filters/split_columns.lua --template=templates/fragment-template.tex -o "$FRAG_DIR/$bn"
+  "$PANDOC" "$f" --to=latex --from markdown+yaml_metadata_block --lua-filter=filters/split_columns.lua --template=templates/fragment-template.tex -o "$FRAG_DIR/$bn"
 done
 
 frags=("$(ls -1 "$FRAG_DIR" | sort)")
