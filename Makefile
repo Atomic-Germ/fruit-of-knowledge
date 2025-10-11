@@ -3,7 +3,7 @@
 MDBOOK ?= mdbook
 BOOK_DIR ?= book
 
-.PHONY: build clean
+.PHONY: build clean serve
 
 # Build the book (uses mdbook by default)
 build:
