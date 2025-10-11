@@ -4,10 +4,19 @@ PANDOC ?= pandoc
 MDBOOK ?= mdbook
 TEXLIVE ?= mactex
 BOOK_DIR ?= book
+TEXBIN ?= /Library/TeX/texbin
+
+# Ensure TeX binaries are on PATH so make-invoked scripts can find xelatex/lualatex/pdflatex
+export PATH := $(TEXBIN):$(PATH)
+
+# Default PDF engine to the mactex xelatex installation; can be overridden by environment
+PDF_ENGINE ?= $(TEXBIN)/xelatex
+export PDF_ENGINE
 OUT_DIR ?= out
 TEST_OUT_DIR ?= $(OUT_DIR)/tests
 CONVERT_SCRIPT ?= scripts/convert_spread.sh
 TEST_SCRIPT ?= tests/convert_examples.sh
+XELATEX ?= /Library/TeX/texbin/xelatex
 
 # Repeated tasks
 .PHONY: build clean convert convert-all test
