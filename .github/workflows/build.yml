@@ -1,0 +1,63 @@
+name: Build mdBook
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build site (mdBook)
+    runs-on: macos-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch all remotes
+        run: git fetch --prune --no-tags
+
+      - name: List remote chapter branches
+        run: |
+          echo "Looking for chapter branches under 'origin/chap/*'..."
+          git for-each-ref --format='%(refname:short)' refs/remotes/origin/chap/* || echo "(no chapter branches found)"
+
+      - name: Merge chapter branches into main
+        run: |
+          set -euo pipefail
+          # For each remote chapter branch (origin/chap/*), merge into the checked-out main
+          for ref in $(git for-each-ref --format='%(refname:short)' refs/remotes/origin/chap/*); do
+            branch=${ref#refs/remotes/origin/}
+            echo "Merging ${branch}"
+            git merge --no-edit "origin/${branch}" || { echo "Merge conflict merging ${branch}; aborting."; git merge --abort || true; exit 1; }
+          done
+          echo "Merged all chapter branches."
+
+      - name: Ensure mdBook is installed (Homebrew)
+        run: |
+          if ! command -v mdbook >/dev/null 2>&1; then
+            brew update
+            brew install mdbook
+          else
+            echo "mdbook is already installed"
+          fi
+
+      - name: Build the book
+        run: mdbook build
+
+      - name: Upload compiled book as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: mdbook-site
+          path: ./book
