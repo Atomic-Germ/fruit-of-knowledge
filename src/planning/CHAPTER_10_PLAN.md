@@ -36,6 +36,6 @@ Encourage readers to notice boundary‑keeping habits in congregations and every
 ## DoD for Chapter 9
 - Three spreads drafted with YAML front matter sketches, PD verse refs, concise context notes, three reflection prompts, and one micro‑practice each; public‑only classification verified by two reviewers.
 
-[../manuscript/CHAPTER_10/SPREAD_01.md](Spread 01)
-[../manuscript/CHAPTER_10/SPREAD_02.md](Spread 02)
-[../manuscript/CHAPTER_10/SPREAD_03.md](Spread 03)
+- [Spread 01](../manuscript/CHAPTER_10/SPREAD_01.md)
+- [Spread 02](../manuscript/CHAPTER_10/SPREAD_02.md)
+- [Spread 03](../manuscript/CHAPTER_10/SPREAD_03.md)

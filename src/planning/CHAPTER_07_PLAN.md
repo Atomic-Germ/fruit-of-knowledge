@@ -35,6 +35,7 @@ Invite readers to trade policing others for rigorous self‑examination and proa
 
 ## DoD for Chapter 7
 - Three spreads drafted with YAML front matter, citations, prompts, and practices; “public‑only” verified by two reviewers; optional echo clearly labeled.
-[../manuscript/CHAPTER_00/SPREAD_01.md](Spread 01)
-[../manuscript/CHAPTER_00/SPREAD_02.md](Spread 02)
-[../manuscript/CHAPTER_00/SPREAD_03.md](Spread 03)
+
+- [Spread 01](../manuscript/CHAPTER_07/SPREAD_01.md)
+- [Spread 02](../manuscript/CHAPTER_07/SPREAD_02.md)
+- [Spread 03](../manuscript/CHAPTER_07/SPREAD_03.md)

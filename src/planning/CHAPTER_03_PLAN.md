@@ -35,6 +35,7 @@ Explore assumptions about security, status, and accumulation against Jesus’ pu
 
 ## DoD for Chapter 3
 - Three spreads drafted with YAML front matter, citations, prompts, and practices; “public-only” verified by two reviewers.
-[../manuscript/CHAPTER_03/SPREAD_01.md](Spread 01)
-[../manuscript/CHAPTER_03/SPREAD_02.md](Spread 02)
-[../manuscript/CHAPTER_03/SPREAD_03.md](Spread 03)
+
+- [Spread 01](../manuscript/CHAPTER_03/SPREAD_01.md)
+- [Spread 02](../manuscript/CHAPTER_03/SPREAD_02.md)
+- [Spread 03](../manuscript/CHAPTER_03/SPREAD_03.md)

@@ -35,7 +35,6 @@ jobs:
       - name: Install mdBook
         run: |
           brew install mdbook
-          brew link --force mdbook
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

@@ -36,6 +36,6 @@ Expose the gap between performative piety and genuine interior practice, alignin
 ## DoD for Chapter 11
 - Three spreads drafted with PD verse refs, concise context notes, three reflection prompts, and one micro‑practice each; public‑only criterion verified by two reviewers.
 
-[../manuscript/CHAPTER_11/SPREAD_01.md](Spread 01)
-[../manuscript/CHAPTER_11/SPREAD_02.md](Spread 02)
-[../manuscript/CHAPTER_11/SPREAD_03.md](Spread 03)
+- [Spread 01](../manuscript/CHAPTER_11/SPREAD_01.md)
+- [Spread 02](../manuscript/CHAPTER_11/SPREAD_02.md)
+- [Spread 03](../manuscript/CHAPTER_11/SPREAD_03.md)

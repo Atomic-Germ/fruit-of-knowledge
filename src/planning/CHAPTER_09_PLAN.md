@@ -39,6 +39,6 @@ Contrast a received reliance on formal oaths, vows, and legal guarantees (as the
 - Reflection prompts (Observe/Empathize/Act) and one micro‑practice per spread included.
 - Public‑only criterion confirmed by two reviewers before moving spreads to "status: review."
 
-[../manuscript/CHAPTER_09/SPREAD_01.md](Spread 01)
-[../manuscript/CHAPTER_09/SPREAD_02.md](Spread 02)
-[../manuscript/CHAPTER_09/SPREAD_03.md](Spread 03)
+- [Spread 01](../manuscript/CHAPTER_09/SPREAD_01.md)
+- [Spread 02](../manuscript/CHAPTER_09/SPREAD_02.md)
+- [Spread 03](../manuscript/CHAPTER_09/SPREAD_03.md)

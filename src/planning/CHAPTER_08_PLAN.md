@@ -36,6 +36,6 @@ Contrast rule-keeping and burdening traditions with Jesus’ public teaching tha
 ## DoD for Chapter 8
 - Three spreads drafted with YAML front matter, citations, prompts, and practices; “public‑only” verified by two reviewers.
 
-[../manuscript/CHAPTER_08/SPREAD_01.md](Spread 01)
-[../manuscript/CHAPTER_08/SPREAD_02.md](Spread 02)
-[../manuscript/CHAPTER_08/SPREAD_03.md](Spread 03)
+- [Spread 01](../manuscript/CHAPTER_08/SPREAD_01.md)
+- [Spread 02](../manuscript/CHAPTER_08/SPREAD_02.md)
+- [Spread 03](../manuscript/CHAPTER_08/SPREAD_03.md)

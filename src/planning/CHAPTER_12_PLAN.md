@@ -36,6 +36,6 @@ Contrast cultural acceptance of violence as problem‑solving with Jesus’ publ
 ## DoD for Chapter 12
 - Three spreads drafted with PD verse refs, concise context notes, three reflection prompts, and one micro‑practice each; public‑only criterion verified by two reviewers.
 
-+[../manuscript/CHAPTER_12/SPREAD_01.md](Spread 01)
-+[../manuscript/CHAPTER_12/SPREAD_02.md](Spread 02)
-+[../manuscript/CHAPTER_12/SPREAD_03.md](Spread 03)
+- [Spread 01](../manuscript/CHAPTER_12/SPREAD_01.md)
+- [Spread 02](../manuscript/CHAPTER_12/SPREAD_02.md)
+- [Spread 03](../manuscript/CHAPTER_12/SPREAD_03.md)
