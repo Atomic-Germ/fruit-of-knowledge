@@ -1,0 +1,18 @@
+% Fragment template for per-spread LaTeX output (no document preamble)
+% Each fragment includes a title block (from YAML) and the body produced by the Lua filter.
+$if(title)$
+\begin{center}
+  {\LARGE\bfseries $title$}\\[6pt]
+  {\small
+    $if(number)$ $number$ $endif$
+    $if(slug)$ \textbullet\ $slug$ $endif$
+    $if(updated)$ \textbullet\ Updated: $updated$ $endif$
+    $if(public_only_check)$ \textbullet\ Public: $public_only_check$ $endif$
+  }
+\end{center}
+\medskip
+$endif$
+
+$body$
+
+\clearpage

@@ -1,0 +1,18 @@
+% Book header: preamble and document begin for the combined book
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% Use fontspec for XeLaTeX/LuaLaTeX when available
+\IfFileExists{fontspec.sty}{\usepackage{fontspec}}{}
+\usepackage{paracol}
+\usepackage{geometry}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{parskip}
+\geometry{margin=1in}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+\providecommand{\tightlist}{%\n  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\begin{document}
+\tableofcontents
+\clearpage
