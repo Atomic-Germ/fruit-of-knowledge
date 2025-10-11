@@ -27,7 +27,8 @@ for ((i=1;i<=total;i++)); do
   test_pdf="$OUT_DIR/test_book.pdf"
   test_log="$OUT_DIR/test_book.log"
   # build test tex
-  cat templates/book-header.tex > "$test_tex"
+  # Use a minimal header for incremental tests (omit tableofcontents/clearpage)
+  sed -e '/\\tableofcontents/d' -e '/\\clearpage/d' templates/book-header.tex > "$test_tex"
   for idx in $(seq 0 $((i-1))); do
     cat "$FRAG_DIR/${fraglist[$idx]}" >> "$test_tex"
   done
