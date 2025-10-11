@@ -1,5 +1,7 @@
 # Chapter 8 Plan — Sabbath and Mercy
 
+**Updated:** 2025-10-10
+
 ## Objective
 Contrast rule-keeping and burdening traditions with Jesus’ public teaching that centers people, mercy, and doing good on the Sabbath.
 
