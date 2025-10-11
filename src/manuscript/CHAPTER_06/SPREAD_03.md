@@ -5,8 +5,8 @@ title: Fear and Courage
 status: draft
 right_sources: ["Luke 12:4–7 (ASV)", "Matt 14:27 (ASV)", "Mark 6:50 (ASV)"]
 left_sources:
-  - {title: Fear keeps you safe; avoid storms, type: paraphrase}
-updated: 2025-10-10
+  - {title: Fear keeps you safe; avoid storms, type: paraphrase, permission: none}
+updated: 2025-10-11
 ---
 
 # Fear and Courage

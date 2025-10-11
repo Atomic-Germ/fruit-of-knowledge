@@ -5,8 +5,8 @@ title: Ask, Seek, Knock
 status: draft
 right_sources: ["Matt 7:7–11 (ASV)"]
 left_sources:
-  - {title: Self-reliance only; don’t ask for help, type: paraphrase}
-updated: 2025-10-10
+  - {title: Self-reliance only; don’t ask for help, type: paraphrase, permission: none}
+updated: 2025-10-11
 ---
 
 # Ask, Seek, Knock

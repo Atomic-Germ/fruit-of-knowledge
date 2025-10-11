@@ -5,8 +5,9 @@ title: Become Like Children
 status: draft
 right_sources: ["Matt 18:1–5 (ASV)"]
 left_sources:
-  - {title: Mature stature earns higher rank, type: paraphrase}
+  - {title: Mature stature earns higher rank, type: paraphrase, permission: none}
 updated: 2025-10-10
+public_only_check: ok
 ---
 
 # Become Like Children

@@ -5,8 +5,8 @@ title: The Rich Fool and ‘Enough’
 status: draft
 right_sources: ["Luke 12:13–21 (ASV)"]
 left_sources:
-  - {title: Maximize returns; bigger stores mean safety, type: paraphrase}
-updated: 2025-10-10
+  - {title: Maximize returns; bigger stores mean safety, type: paraphrase, permission: none}
+updated: 2025-10-11
 ---
 
 # The Rich Fool and ‘Enough’

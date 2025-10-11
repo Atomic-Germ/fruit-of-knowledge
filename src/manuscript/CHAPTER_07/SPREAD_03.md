@@ -5,8 +5,8 @@ title: Forgive and You Will Be Forgiven
 status: draft
 right_sources: ["Luke 6:37–38 (ASV)", "Luke 23:34 (ASV) [optional echo]"]
 left_sources:
-  - {title: Some things are unforgivable; cut them off forever, type: paraphrase}
-updated: 2025-10-10
+  - {title: Some things are unforgivable; cut them off forever, type: paraphrase, permission: none}
+updated: 2025-10-11
 ---
 
 # Forgive and You Will Be Forgiven

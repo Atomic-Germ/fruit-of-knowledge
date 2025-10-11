@@ -1,12 +1,13 @@
 ---
-slug: power-authority-vs-status
-number: 01.2
-title: Authority vs. Status
+slug: power-force-and-coercion
+number: 01.3
+title: Power, Force, and Coercion
 status: draft
 right_sources: ["Matt 23:8–12 (ASV)"]
 left_sources:
-  - {title: Titles confer spiritual authority, type: paraphrase}
-updated: 2025-10-10
+  - {title: Titles confer spiritual authority, type: paraphrase, permission: none}
+updated: 2025-10-11
+public_only_check: ok
 ---
 
 # Authority vs. Status

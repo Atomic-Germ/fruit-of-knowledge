@@ -1,6 +1,6 @@
 ---
 slug: say-yes-say-no
-number: 01
+number: 09.1
 title: Say Yes, Say No
 status: draft
 right_sources: ["Matt 5:33–37 (ASV)"]

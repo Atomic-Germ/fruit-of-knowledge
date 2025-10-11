@@ -5,8 +5,9 @@ title: Judge Not, First Examine Yourself
 status: draft
 right_sources: ["Matt 7:1–5 (ASV)"]
 left_sources:
-  - {title: Call out wrong to uphold standards, type: paraphrase}
+  - {title: Call out wrong to uphold standards, type: paraphrase, permission: none}
 updated: 2025-10-10
+public_only_check: ok
 ---
 
 # Judge Not, First Examine Yourself

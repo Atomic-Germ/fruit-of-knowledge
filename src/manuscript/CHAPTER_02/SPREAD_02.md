@@ -5,8 +5,8 @@ title: Non‑Retaliation
 status: draft
 right_sources: ["Matt 5:38–42 (ASV)"]
 left_sources:
-  - {title: Stand your ground; respond in kind to deter harm, type: paraphrase}
-updated: 2025-10-10
+  - {title: Stand your ground; respond in kind to deter harm, type: paraphrase, permission: none}
+updated: 2025-10-11
 ---
 
 # Non‑Retaliation

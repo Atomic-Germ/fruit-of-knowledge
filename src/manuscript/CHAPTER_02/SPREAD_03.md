@@ -5,8 +5,8 @@ title: Who Is My Neighbor?
 status: draft
 right_sources: ["Luke 10:29–37 (ASV)"]
 left_sources:
-  - {title: Help your own first; outsiders aren’t your responsibility, type: paraphrase}
-updated: 2025-10-10
+  - {title: Help your own first; outsiders aren’t your responsibility, type: paraphrase, permission: none}
+updated: 2025-10-11
 ---
 
 # Who Is My Neighbor?

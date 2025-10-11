@@ -5,8 +5,8 @@ title: The Last and the First
 status: draft
 right_sources: ["Mark 9:33–37 (ASV)", "Mark 10:31 (ASV)"]
 left_sources:
-  - {title: Aim for first place; winners lead, type: paraphrase}
-updated: 2025-10-10
+  - {title: Aim for first place; winners lead, type: paraphrase, permission: none}
+updated: 2025-10-11
 ---
 
 # The Last and the First

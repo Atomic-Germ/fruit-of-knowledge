@@ -5,8 +5,9 @@ title: Authority vs. Status
 status: draft
 right_sources: ["Matt 23:8–12 (ASV)"]
 left_sources:
-  - {title: Titles confer spiritual authority, type: paraphrase}
+  - {title: Titles confer spiritual authority, type: paraphrase, permission: none}
 updated: 2025-10-10
+public_only_check: ok
 ---
 
 # Authority vs. Status

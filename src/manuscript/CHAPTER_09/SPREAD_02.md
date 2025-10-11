@@ -1,12 +1,12 @@
 ---
 slug: oaths-power-and-manipulation
-number: 02
+number: 09.2
 title: Oaths, Power, and Manipulation
 status: draft
 right_sources: ["Matt 23:16–22 (ASV)"]
 left_sources:
   - {title: "Invoking sacred witnesses to secure agreements (paraphrase)", type: paraphrase, permission: none}
-updated: 2025-10-10
+updated: 2025-10-11
 public_only_check: ok
 ---
 

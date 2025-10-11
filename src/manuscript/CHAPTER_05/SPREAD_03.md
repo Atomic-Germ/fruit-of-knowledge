@@ -5,8 +5,9 @@ title: Choose the Lower Seat
 status: draft
 right_sources: ["Luke 14:7–11 (ASV)"]
 left_sources:
-  - {title: Sit up front; signal importance, type: paraphrase}
-updated: 2025-10-10
+  - {title: Sit up front; signal importance, type: paraphrase, permission: none}
+updated: 2025-10-11
+public_only_check: ok
 ---
 
 # Choose the Lower Seat

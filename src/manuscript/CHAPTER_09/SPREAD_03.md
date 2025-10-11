@@ -1,6 +1,6 @@
 ---
 slug: trust-without-formality
-number: 03
+number: 09.3
 title: Trust Without Formality
 status: draft
 right_sources: ["Matt 5:37 (ASV)"]

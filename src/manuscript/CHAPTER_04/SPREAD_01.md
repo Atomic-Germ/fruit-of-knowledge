@@ -5,8 +5,9 @@ title: Give in Secret
 status: draft
 right_sources: ["Matt 6:1–4 (ASV)"]
 left_sources:
-  - {title: Public generosity inspires others; make it visible, type: paraphrase}
+  - {title: Public generosity inspires others; make it visible, type: paraphrase, permission: none}
 updated: 2025-10-10
+public_only_check: ok
 ---
 
 # Give in Secret

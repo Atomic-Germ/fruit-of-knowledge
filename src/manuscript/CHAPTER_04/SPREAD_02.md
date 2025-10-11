@@ -5,8 +5,8 @@ title: The Widow’s Gift
 status: draft
 right_sources: ["Mark 12:41–44 (ASV)", "Luke 21:1–4 (ASV)"]
 left_sources:
-  - {title: The amount matters most, type: paraphrase}
-updated: 2025-10-10
+  - {title: The amount matters most, type: paraphrase, permission: none}
+updated: 2025-10-11
 ---
 
 # The Widow’s Gift

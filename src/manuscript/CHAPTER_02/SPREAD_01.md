@@ -5,8 +5,9 @@ title: Love Your Enemies
 status: draft
 right_sources: ["Matt 5:43–48 (ASV)"]
 left_sources:
-  - {title: Protect your own; enemies deserve what they get, type: paraphrase}
+  - {title: Protect your own; enemies deserve what they get, type: paraphrase, permission: none}
 updated: 2025-10-10
+public_only_check: ok
 ---
 
 # Love Your Enemies

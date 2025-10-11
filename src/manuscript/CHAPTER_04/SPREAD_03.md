@@ -5,8 +5,9 @@ title: Invite the Unreturning
 status: draft
 right_sources: ["Luke 14:12–14 (ASV)"]
 left_sources:
-  - {title: Invite those who can help you back; network wisely, type: paraphrase}
+  - {title: Invite those who can help you back; network wisely, type: paraphrase, permission: none}
 updated: 2025-10-10
+public_only_check: ok
 ---
 
 # Invite the Unreturning

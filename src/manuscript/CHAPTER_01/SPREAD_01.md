@@ -5,8 +5,9 @@ title: Greatness Redefined
 status: draft
 right_sources: ["Matt 20:25–28 (ASV)", "Mark 10:42–45 (ASV)"]
 left_sources:
-  - {title: Leadership maxim about exercising authority to maintain order, type: paraphrase}
-updated: 2025-10-10
+  - {title: Leadership maxim about exercising authority to maintain order, type: paraphrase, permission: none}
+updated: 2025-10-11
+public_only_check: ok
 ---
 
 # Greatness Redefined

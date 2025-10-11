@@ -5,8 +5,9 @@ title: Do Not Be Anxious
 status: draft
 right_sources: ["Matt 6:25–34 (ASV)"]
 left_sources:
-  - {title: If you’re not worried, you’re not paying attention, type: paraphrase}
+  - {title: If you’re not worried, you’re not paying attention, type: paraphrase, permission: none}
 updated: 2025-10-10
+public_only_check: ok
 ---
 
 # Do Not Be Anxious

@@ -5,8 +5,8 @@ title: Reconcile First
 status: draft
 right_sources: ["Matt 5:23–26 (ASV)"]
 left_sources:
-  - {title: Worship/mission comes first; conflicts can wait, type: paraphrase}
-updated: 2025-10-10
+  - {title: Worship/mission comes first; conflicts can wait, type: paraphrase, permission: none}
+updated: 2025-10-11
 ---
 
 # Reconcile First

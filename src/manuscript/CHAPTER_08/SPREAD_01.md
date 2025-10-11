@@ -6,7 +6,7 @@ status: draft
 right_sources: ["Mark 2:27–28 (ASV)"]
 left_sources:
   - {title: "Rule-first Sabbath emphasis (paraphrase)", type: paraphrase, permission: none}
-updated: 2025-10-10
+updated: 2025-10-11
 public_only_check: ok
 ---
 

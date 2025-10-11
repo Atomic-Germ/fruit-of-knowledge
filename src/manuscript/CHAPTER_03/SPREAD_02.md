@@ -5,8 +5,8 @@ title: Anxiety and Provision
 status: draft
 right_sources: ["Matt 6:25–34 (ASV)"]
 left_sources:
-  - {title: Worry is responsible; planning requires constant vigilance, type: paraphrase}
-updated: 2025-10-10
+  - {title: Worry is responsible; planning requires constant vigilance, type: paraphrase, permission: none}
+updated: 2025-10-11
 ---
 
 # Anxiety and Provision
