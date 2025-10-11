@@ -70,3 +70,8 @@ book: $(OUT_DIR)/book
 	@cd $(OUT_DIR)/book && if [ -f book.pdf ]; then \
 		echo "Wrote $(OUT_DIR)/book/book.pdf"; \
 		else echo "PDF not produced. Showing last 200 lines of book.log:"; tail -n 200 book.log; fi
+
+.PHONY: book-debug
+book-debug:
+	@echo "Running incremental book debug to find problematic fragment..."
+	@bash scripts/book_debug.sh $(OUT_DIR)/book
