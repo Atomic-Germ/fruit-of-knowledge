@@ -19,8 +19,11 @@ public_only_check: ok
 ## Jesus' Public Words
 > "And he sat down, and called the twelve, and saith unto them... If any man would be first, he shall be last of all, and servant of all." (Mark 9:35 ASV)
 > "And Jesus said, Verily I say unto you, Except ye be converted, and become as little children, ye shall in no wise enter into the kingdom of heaven..." (Matt 18:1–5 ASV)
-- Reference: Mark 9:33–37; Matt 18:1–5 (ASV)
+- Reference: Mark 9:33
+201337 (ASV); Matt 18:1
+20135 (ASV)
 - Context: Public discussions about greatness and status among followers.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Visibility-driven advancement vs. inversion of greatness through humble service.
@@ -36,3 +39,8 @@ Lead by attending for one week: in one meeting each day, prioritize listening an
 ## Notes
 - Right texts: Mark 9:33–37; Matt 18:1–5 (ASV); public teaching contexts.
 - Left source paraphrased; permission: none.
+- Reference: Mark 9:33
+201337 (ASV); Matt 18:1
+20135 (ASV)
+- Context: Public discussions about greatness and status among followers.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

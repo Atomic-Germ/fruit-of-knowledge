@@ -35,3 +35,7 @@ For three days, avoid oath‑language ("I swear," "I promise on...") and intenti
 ## Notes
 - Right text: Matt 5:33–37 (ASV). Pericope: Sermon on the Mount; public address.
 - Left source: paraphrase; permission: none.
+- Reference: Matt 5:33
+201337 (ASV)
+- Context: Sermon on the Mount; public address.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

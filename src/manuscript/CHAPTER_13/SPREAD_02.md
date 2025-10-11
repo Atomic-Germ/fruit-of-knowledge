@@ -35,3 +35,7 @@ This week, perform one discreet, costly act of mercy toward a person your commun
 ## Notes
 - Right text: Luke 7:36–50 (ASV); public meal context with Pharisees and witnesses.
 - Left source paraphrased; permission: none.
+- Reference: Luke 7:36
+201350 (ASV)
+- Context: Public meal where Jesus interprets the woman's actions as evidence of forgiven love.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

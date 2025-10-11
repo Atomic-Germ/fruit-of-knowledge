@@ -21,6 +21,7 @@ public_only_check: ok
 > "If therefore thou art offering thy gift at the altar, and there rememberest that thy brother hath aught against thee, leave there thy gift before the altar, and go thy way, first be reconciled to thy brother, and then come and offer thy gift. Agree with thine adversary quickly, while thou art with him in the way; lest haply the adversary deliver thee to the judge, and the judge deliver thee to the officer, and thou be cast into prison. Verily I say unto thee, Thou shalt by no means come out thence, till thou have paid the last farthing."
 - Reference: Matthew 5:23–26 (ASV)
 - Context: Sermon on the Mount, public.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Ritual priority vs. relationship repair.

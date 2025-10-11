@@ -35,3 +35,6 @@ Initiate one peacemaking conversation this week with a posture of curiosity and 
 ## Notes
 - Right text: Matt 5:9 (ASV); public Sermon context.
 - Left source paraphrased; permission: none.
+- Reference: Matt 5:9 (ASV)
+- Context: Beatitudes in the Sermon on the Mount, public address.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

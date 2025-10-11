@@ -35,3 +35,7 @@ For two weeks, practice one persistent petition (daily short prayer, a repeated 
 ## Notes
 - Right text: Luke 18:1–8 (ASV); public parable context.
 - Left source paraphrased; permission: none.
+- Reference: Luke 18:1
+20138 (ASV)
+- Context: Public parable urging persistence in prayer and trust in just response.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

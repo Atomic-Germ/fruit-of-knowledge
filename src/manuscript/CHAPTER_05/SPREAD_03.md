@@ -19,8 +19,10 @@ public_only_check: ok
 
 ## Jesus’ Public Words
 > "And he spake a parable unto those who were bidden, when he marked how they chose out the chief seats; saying unto them, When thou art bidden of any man to a marriage feast, sit not down in the chief seat; lest haply a more honorable man than thou be bidden of him, and he that bade thee and him shall come and say to thee, Give this man place; and then thou shalt begin with shame to take the lowest place. But when thou art bidden, go and sit down in the lowest place; that when he that hath bidden thee cometh, he may say to thee, Friend, go up higher: then shalt thou have glory in the presence of all that sit at meat with thee. For every one that exalteth himself shall be humbled; and he that humbleth himself shall be exalted."
-- Reference: Luke 14:7–11 (ASV)
+- Reference: Luke 14:7
+201311 (ASV)
 - Context: Public meal; instruction to guests.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Self-promotion vs. humility that lets others lift you.

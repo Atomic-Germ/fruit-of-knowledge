@@ -35,3 +35,7 @@ Pick one small, inconvenient act of care (bring a meal, offer a needed ride, do 
 ## Notes
 - Right text: Mark 3:1–6 (ASV). Pericope context: public synagogue confrontation and healing.
 - Left source: paraphrase; permission: none.
+- Reference: Mark 3:1
+20136 (ASV)
+- Context: Synagogue setting; public confrontation and healing scene.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

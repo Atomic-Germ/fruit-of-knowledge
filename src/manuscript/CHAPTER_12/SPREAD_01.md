@@ -35,3 +35,7 @@ When slighted, practice a scripted, calm second‑mile response and note what sh
 ## Notes
 - Right text: Matt 5:38–42 (ASV); public Sermon setting.
 - Left source paraphrased; permission: none.
+- Reference: Matt 5:38
+201342 (ASV)
+- Context: Sermon on the Mount, public teaching on responses to injury.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

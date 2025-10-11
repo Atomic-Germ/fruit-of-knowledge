@@ -35,3 +35,7 @@ For one week, whenever slighted, practice a non‑retaliating, dignity‑preserv
 
 ## Notes
 - Note: non‑retaliation ≠ passivity; invite creative alternatives.
+- Reference: Matt 5:38
+201342 (ASV)
+- Context: Sermon on the Mount, public.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

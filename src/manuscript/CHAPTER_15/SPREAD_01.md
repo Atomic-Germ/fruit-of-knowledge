@@ -35,3 +35,7 @@ For seven days, keep a daily private five‑minute prayer slot; resist posting a
 ## Notes
 - Right text: Matt 6:5–6 (ASV); Sermon context.
 - Left source paraphrased; permission: none.
+- Reference: Matt 6:5
+20136 (ASV)
+- Context: Sermon on the Mount instruction contrasting public, performative prayer with private devotion.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

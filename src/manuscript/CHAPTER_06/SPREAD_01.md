@@ -35,3 +35,7 @@ Daily: write the worry, then take one concrete seek-first step; release the rest
 
 ## Notes
 - Avoid shaming; pair trust with action.
+- Reference: Matt 6:25
+201334 (ASV)
+- Context: Sermon on the Mount, public.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

@@ -35,3 +35,7 @@ For three days this week, respond to one small, practical human need (share a me
 ## Notes
 - Right text: Mark 2:27–28 (ASV). Pericope context: grainfields dispute; public setting with critics present.
 - Left source: paraphrase; permission: none.
+- Reference: Mark 2:27
+201328 (ASV)
+- Context: Public dispute in the grainfields; Jesus answers critics in a public setting.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

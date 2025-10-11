@@ -36,3 +36,6 @@ Replace one advocacy for force with a practical support action (e.g., donate to 
 ## Notes
 - Right texts: John 18:36; Matt 26:52 (ASV). Note contextual differences (Pilate trial vs. arrest); public settings noted.
 - Left source paraphrased; permission: none.
+- Reference: John 18:36 (ASV); Matt 26:52 (ASV)
+- Context: Public exchange with Pilate (trial scene) and public arrest scene where Jesus reproves violent defense.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

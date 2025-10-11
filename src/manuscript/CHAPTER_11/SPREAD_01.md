@@ -35,3 +35,7 @@ For seven days, replace a public, performative religious habit (public declarati
 ## Notes
 - Right text: Matt 23:25–28 (ASV); public rebuke of scribes and Pharisees.
 - Left source paraphrased; permission: none.
+- Reference: Matt 23:25
+201328 (ASV)
+- Context: Public denunciation of religious leaders before crowds.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

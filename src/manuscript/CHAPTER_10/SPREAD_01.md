@@ -35,3 +35,7 @@ This week, share an unadvertised meal or conversation with someone you would nor
 ## Notes
 - Right text: Matt 9:10–13 (ASV); pericope public meal and critique by Pharisees.
 - Left source paraphrased; permission: none.
+- Reference: Matt 9:10
+201313 (ASV)
+- Context: Public meal scene; table fellowship criticized by religious leaders.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

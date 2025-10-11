@@ -21,6 +21,7 @@ updated: 2025-10-11
 > Matt 14:27; Mark 6:50 (ASV): "Be of good cheer; it is I; be not afraid" spoken amid public‑witnessed storm scenes.
 - Reference: Luke 12:4–7; Matt 14:27; Mark 6:50 (ASV)
 - Context: Crowd teaching (Luke 12); miracle scenes visible to many.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Safety-first fear vs. courage rooted in care and ultimate value.

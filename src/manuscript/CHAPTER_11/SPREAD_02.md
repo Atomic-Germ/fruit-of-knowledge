@@ -35,3 +35,7 @@ Keep a private journal for two weeks noting one interior habit you consistently 
 ## Notes
 - Right text: Luke 11:39–41 (ASV); public teaching context.
 - Left source paraphrased; permission: none.
+- Reference: Luke 11:39
+201341 (ASV)
+- Context: Public teaching contrasting external compliance with inner corruption.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

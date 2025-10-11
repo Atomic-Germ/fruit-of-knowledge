@@ -18,8 +18,10 @@ public_only_check: ok
 
 ## Jesus' Public Words
 > "After this manner therefore pray ye: Our Father who art in heaven, Hallowed be thy name..." (Matt 6:9–13 ASV)
-- Reference: Matthew 6:9–13 (ASV)
+- Reference: Matt 6:9
+201313 (ASV)
 - Context: Sermon on the Mount providing a concise pattern for communal prayer.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Performance‑driven prayer vs. concise, formative patterns that orient desire and action.
@@ -35,3 +37,7 @@ For seven days, use the Lord’s Prayer as the structure for a five‑minute dai
 ## Notes
 - Right text: Matt 6:9–13 (ASV); public Sermon context.
 - Left source paraphrased; permission: none.
+- Reference: Matt 6:9
+201313 (ASV)
+- Context: Sermon on the Mount providing a concise pattern for communal prayer.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

@@ -18,8 +18,10 @@ public_only_check: ok
 
 ## Jesus' Public Words
 > "And they were bringing little children to him, that he should touch them: but the disciples rebuked them. But when Jesus saw it, he was indignant, and said unto them, Suffer the little children to come unto me, and forbid them not..." (Mark 10:13–16 ASV)
-- Reference: Mark 10:13–16; Matthew 19:13–15 (ASV)
-- Context: Public scene where Jesus rebukes disciples for excluding children and blesses them.
+- Reference: Mark 10:13
+201316 (ASV)
+- Context: Public scene where Jesus rebukes disciples for excluding children and blesses them; public setting.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Order‑first hospitality vs. radical welcome that centers the overlooked.
@@ -35,3 +37,7 @@ Rearrange one gathering this week (seat plan, agenda item, invitation list) to i
 ## Notes
 - Right texts: Mark 10:13–16; Matt 19:13–15 (ASV); public setting.
 - Left source paraphrased; permission: none.
+- Reference: Mark 10:13
+201316 (ASV)
+- Context: Public scene where Jesus rebukes disciples for excluding children and blesses them; public setting.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

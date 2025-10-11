@@ -34,4 +34,7 @@ Security-through-accumulation vs. loyalty to a different treasure.
 This week, automate a small, recurring gift that reduces your discretionary spend.
 
 ## Notes
-- Keep ASV wording; avoid harmonizing with adjacent teachings.
+- Reference: Matt 6:19
+201324 (ASV)
+- Context: Sermon on the Mount, public.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

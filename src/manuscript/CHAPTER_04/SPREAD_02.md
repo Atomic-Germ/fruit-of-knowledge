@@ -35,3 +35,7 @@ Set a percent-based gift that slightly hurts and give it quietly.
 
 ## Notes
 - Keep focus on proportion/sacrifice, not totals.
+- Reference: Mark 12:41
+201344 (ASV)
+- Context: Public temple observation; teaching to listeners.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

@@ -18,7 +18,8 @@ public_only_check: ok
 
 ## Jesus' Public Words
 > "And he called unto him the multitude, and said unto them, Hearken unto me every one of you, and understand: there is nothing from without a man, that entering into him can defile him; but the things which come out of him, those are they that defile a man." (Mark 7:14–15 ASV)
-- Reference: Mark 7:14–23 (ASV)
+- Reference: Mark 7:14
+201323 (ASV)
 - Context: Public teaching in response to debates about washing and impurity.
 
 ## Tension
@@ -35,3 +36,4 @@ Choose a single, low‑risk context and enact a compassionate exception (share f
 ## Notes
 - Right text: Mark 7:14–23 (ASV); public debate and teaching context.
 - Left source paraphrased; permission: none.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

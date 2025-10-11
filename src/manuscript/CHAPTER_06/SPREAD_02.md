@@ -34,3 +34,7 @@ Each day this week, ask for one concrete help you actually need.
 
 ## Notes
 - Emphasize openness and relational trust over passivity.
+- Reference: Matt 7:7
+201311 (ASV)
+- Context: Sermon on the Mount, public.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

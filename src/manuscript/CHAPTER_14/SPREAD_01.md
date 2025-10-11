@@ -18,8 +18,11 @@ public_only_check: ok
 
 ## Jesus' Public Words
 > "But Jesus called them to him, and saith unto them, Ye know that they which are reputed to rule over the Gentiles exercise lordship over them; and their great ones exercise authority over them. But it shall not be so among you..." (Mark 10:42–44 ASV)
-- Reference: Mark 10:42–45; Matt 20:25–28 (ASV)
+- Reference: Mark 10:42
+201345 (ASV); Matt 20:25
+201328 (ASV)
 - Context: Public teaching in response to discussions about status among his followers.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Command‑and‑control leadership vs. servant leadership that seeks others' flourishing.
@@ -35,3 +38,8 @@ For one week, accept a task you would normally delegate and perform it as servic
 ## Notes
 - Right texts: Mark 10:42–45; Matt 20:25–28 (ASV); public teaching context.
 - Left source paraphrased; permission: none.
+- Reference: Mark 10:42
+201345 (ASV); Matt 20:25
+201328 (ASV)
+- Context: Public teaching in response to discussions about status among his followers.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

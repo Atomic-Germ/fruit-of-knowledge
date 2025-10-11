@@ -35,3 +35,7 @@ Plan and execute one act of mercy toward an outsider this week.
 
 ## Notes
 - Keep parable summary brief; encourage reading full ASV text.
+- Reference: Luke 10:29
+201337 (ASV)
+- Context: Public exchange with a lawyer, followed by a parable to listeners.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

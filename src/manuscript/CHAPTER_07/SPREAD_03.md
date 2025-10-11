@@ -36,3 +36,7 @@ Choose a mercy act toward someone you’ve written off.
 
 ## Notes
 - Note textual variation of Luke 23:34; keep it optional.
+- Reference: Luke 6:37
+201338 (ASV)
+- Context: Sermon on the Plain, public.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

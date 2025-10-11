@@ -35,3 +35,7 @@ Offer one genuine, humble admission of a small failing to a trusted person this 
 ## Notes
 - Right text: Luke 18:9–14 (ASV); public parable setting.
 - Left source paraphrased; permission: none.
+- Reference: Luke 18:9
+201314 (ASV)
+- Context: Public parable setting.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

@@ -18,8 +18,10 @@ public_only_check: ok
 
 ## Jesus' Public Words
 > "And he called the people unto him with his disciples also, and saith unto them, If any man will come after me, let him deny himself, and take up his cross, and follow me..." (Mark 8:34 ASV)
-- Reference: Mark 8:34–38 (ASV)
+- Reference: Mark 8:34
+201338 (ASV)
 - Context: Public teaching to crowds and disciples about costly discipleship.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Self‑promotional sacrifice vs. sacrificial service aimed at others’ flourishing.
@@ -35,3 +37,7 @@ For two weeks, take on a task that is necessary but unrewarded (mentoring, routi
 ## Notes
 - Right text: Mark 8:34–38 (ASV); public setting noted where crowds were present.
 - Left source paraphrased; permission: none.
+- Reference: Mark 8:34
+201338 (ASV)
+- Context: Public teaching to crowds and disciples about costly discipleship.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

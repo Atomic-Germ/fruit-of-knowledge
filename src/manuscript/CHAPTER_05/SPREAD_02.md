@@ -19,8 +19,10 @@ public_only_check: ok
 
 ## Jesus’ Public Words
 > Mark 9:35 (ASV): "If any man would be first, he shall be last of all, and servant of all." He then took a child and set him in their midst (vv. 36–37).
-- Reference: Mark 9:33–37 (ASV); aphorism echoed in Mark 10:31: "But many that are first shall be last; and the last first."
+- Reference: Mark 9:33
+201337 (ASV)
 - Context: Teaching to a group with others around.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Upward mobility vs. downward greatness.

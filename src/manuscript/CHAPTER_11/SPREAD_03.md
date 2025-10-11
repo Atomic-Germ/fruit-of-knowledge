@@ -35,3 +35,7 @@ This week, offer one unaggrandized thank‑you or admission of mistake in a grou
 ## Notes
 - Right text: Luke 18:9–14 (ASV); public parable told to a listening audience.
 - Left source paraphrased; permission: none.
+- Reference: Luke 18:9
+201314 (ASV)
+- Context: Public parable addressing self-righteousness in a listening audience.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
