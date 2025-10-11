@@ -4,13 +4,9 @@ PANDOC ?= pandoc
 MDBOOK ?= mdbook
 TEXLIVE ?= mactex
 BOOK_DIR ?= book
-TEXBIN ?= /Library/TeX/texbin
 
 # When set to 1 the Makefile allows failures to propagate (CI/main should set this).
 FAIL_ON_ERROR ?= 0
-
-# Ensure TeX binaries are on PATH so make-invoked scripts can find xelatex/lualatex/pdflatex
-export PATH := $(TEXBIN):$(PATH)
 
 # Default PDF engine to the mactex xelatex installation; can be overridden by environment
 PDF_ENGINE ?= $(TEXBIN)/xelatex

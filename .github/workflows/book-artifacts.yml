@@ -7,7 +7,7 @@ on:
 jobs:
   dry-run:
     name: Dry-run and tests (non-main branches)
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     if: github.ref != 'refs/heads/main'
     steps:
       - name: Checkout repository
@@ -15,8 +15,7 @@ jobs:
 
       - name: Install minimal build dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc python3-pip
+          brew install pandoc
 
       - name: Set reproducible build epoch (commit time)
         run: echo "SOURCE_DATE_EPOCH=$(git log -1 --format=%ct)" >> $GITHUB_ENV
@@ -75,7 +74,7 @@ jobs:
           [ -f out/book/book.tex ] || echo "TeX missing" > out/book/book.tex
       - name: Upload Dry Run Report
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Dry Run Report
           path: |
@@ -105,9 +104,6 @@ jobs:
           # Install mactex (provides xelatex); this is large but required for a faithful, repeatable build
           brew install --cask mactex
 
-      - name: Add TeX binaries to PATH
-        run: echo "/Library/TeX/texbin" >> $GITHUB_PATH
-
       - name: Set reproducible build epoch (commit time)
         run: |
           echo "SOURCE_DATE_EPOCH=$(git log -1 --format=%ct)" >> $GITHUB_ENV
@@ -117,7 +113,7 @@ jobs:
         run: make book-ci
         env:
           PANDOC: pandoc
-          PDF_ENGINE: /Library/TeX/texbin/xelatex
+          PDF_ENGINE: xelatex
           FAIL_ON_ERROR: '1'
       - name: Install Python PDF normalization tools
         run: |
@@ -156,7 +152,7 @@ jobs:
 
       - name: Upload Book PDFs
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Book (PDF)
           path: |
@@ -165,14 +161,14 @@ jobs:
 
       - name: Upload Book (TeX)
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Book (TeX)
           path: out/book/book.tex
 
       - name: Upload Build Log
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Build Log
           path: out/book/book.log
