@@ -1,4 +1,4 @@
-name: Build mdBook
+name: mdBook
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    name: Build site (mdBook)
+    name: Build
     runs-on: macos-latest
     timeout-minutes: 60
 
@@ -57,7 +57,7 @@ jobs:
         run: mdbook build
 
       - name: Upload compiled book as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
-          name: mdbook-site
+          name: Compiled Book
           path: ./book
