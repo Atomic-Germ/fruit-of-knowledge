@@ -4,6 +4,8 @@
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+% Load fontspec when available (XeLaTeX/LuaLaTeX); harmless fallback for pdfLaTeX
+\IfFileExists{fontspec.sty}{\usepackage{fontspec}}{}
 \usepackage{paracol}
 \usepackage{geometry}
 \usepackage{microtype}
@@ -12,6 +14,11 @@
 \geometry{margin=1in}
 \setlength{\parskip}{6pt}
 \setlength{\parindent}{0pt}
+
+% Pandoc emits a \tightlist command for compact lists; define it if missing to avoid
+% compilation failure when using a custom template.
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 % Document starts here
 \begin{document}
