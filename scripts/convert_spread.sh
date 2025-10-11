@@ -10,6 +10,9 @@ INPUT="$1"
 OUTPUT="${2:-${INPUT%.md}.pdf}"
 mkdir -p "$(dirname "$OUTPUT")"
 
+# Default executable names; allow overrides via environment
+PANDOC="${PANDOC:-pandoc}"
+
 PDF_ENGINE="${PDF_ENGINE:-}"
 # Auto-detect a TeX engine if the user did not provide one.
 if [ -z "$PDF_ENGINE" ] && [ "${OUTPUT##*.}" = "pdf" ]; then
