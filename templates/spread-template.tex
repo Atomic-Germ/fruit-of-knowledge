@@ -1,0 +1,43 @@
+% Pandoc LaTeX template for a two-column "spread" layout using paracol
+% Usage: pandoc <input.md> --template=templates/spread-template.tex --lua-filter=filters/split_columns.lua
+
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{paracol}
+\usepackage{geometry}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{parskip}
+\geometry{margin=1in}
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{0pt}
+
+% Document starts here
+\begin{document}
+
+% Title block pulled from YAML metadata (title, number, slug, updated, public_only_check)
+$if(title)$
+\begin{center}
+  {\LARGE\bfseries $title$}\\[6pt]
+  {\small
+    $if(number)$ $number$ $endif$
+    $if(slug)$ \textbullet\ $slug$ $endif$
+    $if(updated)$ \textbullet\ Updated: $updated$ $endif$
+    $if(public_only_check)$ \textbullet\ Public: $public_only_check$ $endif$
+  }
+\end{center}
+\medskip
+$endif$
+
+% The body should contain a "paracol" environment created by the Lua filter.
+% The Lua filter groups sections into left/right columns and wraps them in:
+%   \begin{paracol}{2}
+%     <left column content>
+%   \switchcolumn
+%     <right column content>
+%   \end{paracol}
+
+$body$
+
+\end{document}
