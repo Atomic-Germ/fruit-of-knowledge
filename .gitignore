@@ -1,1 +1,6 @@
 book
+out
+.DS_Store
+**/.DS_Store
+**/._*
+._*
