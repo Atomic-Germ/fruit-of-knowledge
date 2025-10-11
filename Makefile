@@ -64,7 +64,8 @@ book: $(OUT_DIR)/book
 	done
 	@echo "Concatenating fragments into master LaTeX..."
 	@cat templates/book-header.tex $(OUT_DIR)/book/fragments/*.tex templates/book-footer.tex > $(OUT_DIR)/book/book.tex
-	@echo "Compiling master book PDF with $(PDF_ENGINE) (non-interactive)..."
+	@echo "Cleaning old LaTeX aux files and compiling master book PDF with $(PDF_ENGINE) (non-interactive)..."
+	@cd $(OUT_DIR)/book && rm -f book.aux book.toc book.log book.out book.pdf || true
 	@cd $(OUT_DIR)/book && $(PDF_ENGINE) -interaction=nonstopmode -file-line-error book.tex >book.log 2>&1 || true
 	@cd $(OUT_DIR)/book && $(PDF_ENGINE) -interaction=nonstopmode -file-line-error book.tex >book.log 2>&1 || true
 	@cd $(OUT_DIR)/book && if [ -f book.pdf ]; then \

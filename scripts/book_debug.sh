@@ -33,7 +33,7 @@ for ((i=1;i<=total;i++)); do
   done
   cat templates/book-footer.tex >> "$test_tex"
   # compile
-  (cd "$OUT_DIR" && "$PDF_ENGINE" -interaction=nonstopmode -file-line-error "test_book.tex" >"test_book.log" 2>&1) || true
+  (cd "$OUT_DIR" && rm -f test_book.aux test_book.toc test_book.log test_book.out test_book.pdf || true && "$PDF_ENGINE" -interaction=nonstopmode -file-line-error "test_book.tex" >"test_book.log" 2>&1) || true
   if [ -f "$test_pdf" ]; then
     echo "  OK (produced test_book.pdf for first $i fragments)"
     rm -f "$test_pdf" "$OUT_DIR/test_book.aux" "$OUT_DIR/test_book.log" "$OUT_DIR/test_book.out" || true
