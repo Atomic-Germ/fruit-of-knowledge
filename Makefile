@@ -16,7 +16,6 @@ OUT_DIR ?= out
 TEST_OUT_DIR ?= $(OUT_DIR)/tests
 CONVERT_SCRIPT ?= scripts/convert_spread.sh
 TEST_SCRIPT ?= tests/convert_examples.sh
-XELATEX ?= /Library/TeX/texbin/xelatex
 
 # Repeated tasks
 .PHONY: build clean convert convert-all test book
@@ -65,7 +64,9 @@ book: $(OUT_DIR)/book
 	done
 	@echo "Concatenating fragments into master LaTeX..."
 	@cat templates/book-header.tex $(OUT_DIR)/book/fragments/*.tex templates/book-footer.tex > $(OUT_DIR)/book/book.tex
-	@echo "Compiling master book PDF with $(PDF_ENGINE)..."
-	@cd $(OUT_DIR)/book && $(PDF_ENGINE) book.tex >/dev/null 2>&1 || true
-	@cd $(OUT_DIR)/book && $(PDF_ENGINE) book.tex >/dev/null 2>&1 || true
-	@echo "Wrote $(OUT_DIR)/book/book.pdf"
+	@echo "Compiling master book PDF with $(PDF_ENGINE) (non-interactive)..."
+	@cd $(OUT_DIR)/book && $(PDF_ENGINE) -interaction=nonstopmode -file-line-error book.tex >book.log 2>&1 || true
+	@cd $(OUT_DIR)/book && $(PDF_ENGINE) -interaction=nonstopmode -file-line-error book.tex >book.log 2>&1 || true
+	@cd $(OUT_DIR)/book && if [ -f book.pdf ]; then \
+		echo "Wrote $(OUT_DIR)/book/book.pdf"; \
+		else echo "PDF not produced. Showing last 200 lines of book.log:"; tail -n 200 book.log; fi
