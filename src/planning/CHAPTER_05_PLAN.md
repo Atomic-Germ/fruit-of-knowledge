@@ -35,3 +35,7 @@ Challenge status-seeking and rank with Jesus’ public teaching on childlikeness
 
 ## DoD for Chapter 5
 - Three spreads drafted with YAML front matter, citations, prompts, and practices; “public‑only” verified by two reviewers.
+
+[../manuscript/CHAPTER_05/SPREAD_01.md](Spread 01)
+[../manuscript/CHAPTER_05/SPREAD_02.md](Spread 02)
+[../manuscript/CHAPTER_05/SPREAD_03.md](Spread 03)

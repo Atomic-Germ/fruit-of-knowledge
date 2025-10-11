@@ -38,3 +38,7 @@ Juxtapose institutional/assumed views of power with Jesus’ public teaching on 
 
 ## DoD for Chapter 1
 - Three spreads drafted with YAML front matter, citations, prompts, and practices; dual review on “public” criterion; sensitivity pass on tone.
+
+[../manuscript/CHAPTER_01/SPREAD_01.md](Spread 01)
+[../manuscript/CHAPTER_01/SPREAD_02.md](Spread 02)
+[../manuscript/CHAPTER_01/SPREAD_03.md](Spread 03)

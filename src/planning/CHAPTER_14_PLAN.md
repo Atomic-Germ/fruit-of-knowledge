@@ -36,4 +36,6 @@ Rethink conventional leadership that privileges rank and control by exploring Je
 ## DoD for Chapter 14
 - Three spreads drafted with PD verse refs, concise context notes, reflection prompts, and micro‑practices; public‑only classification verified by two reviewers.
 
-```
+[../manuscript/CHAPTER_14/SPREAD_01.md](Spread 01)
+[../manuscript/CHAPTER_14/SPREAD_02.md](Spread 02)
+[../manuscript/CHAPTER_14/SPREAD_03.md](Spread 03)

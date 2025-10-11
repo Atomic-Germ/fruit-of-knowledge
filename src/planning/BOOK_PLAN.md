@@ -154,3 +154,6 @@ updated: <YYYY-MM-DD>
 ## Future Enhancements
 - Optional sidebars for historical background.
 - Digital companion with sources and context notes.
+[../manuscript/CHAPTER_00/SPREAD_01.md](Spread 01)
+[../manuscript/CHAPTER_00/SPREAD_02.md](Spread 02)
+[../manuscript/CHAPTER_00/SPREAD_03.md](Spread 03)

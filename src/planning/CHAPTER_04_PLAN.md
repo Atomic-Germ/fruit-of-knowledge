@@ -35,3 +35,7 @@ Contrast performative charity and recognition-seeking with Jesus’ public teach
 
 ## DoD for Chapter 4
 - Three spreads drafted with YAML front matter, citations, prompts, and practices; “public-only” verified by two reviewers.
+
+[../manuscript/CHAPTER_04/SPREAD_01.md](Spread 01)
+[../manuscript/CHAPTER_04/SPREAD_02.md](Spread 02)
+[../manuscript/CHAPTER_04/SPREAD_03.md](Spread 03)

@@ -36,4 +36,6 @@ Contrast purity‑driven boundary maintenance and ritual correctness with Jesus�
 ## DoD for Chapter 13
 - Three spreads drafted with PD verse refs, concise context notes, three reflection prompts, and one micro‑practice each; public‑only criterion verified by two reviewers.
 
-```
+[../manuscript/CHAPTER_13/SPREAD_01.md](Spread 01)
+[../manuscript/CHAPTER_13/SPREAD_02.md](Spread 02)
+[../manuscript/CHAPTER_13/SPREAD_03.md](Spread 03)

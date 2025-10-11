@@ -35,3 +35,7 @@ Contrast worry-as-responsibility with Jesus’ public teaching on trustful atten
 
 ## DoD for Chapter 6
 - Three spreads drafted with YAML front matter, citations, prompts, and practices; “public‑only” check by two reviewers.
+
+[../manuscript/CHAPTER_06/SPREAD_01.md](Spread 01)
+[../manuscript/CHAPTER_06/SPREAD_02.md](Spread 02)
+[../manuscript/CHAPTER_06/SPREAD_03.md](Spread 03)

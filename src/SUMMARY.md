@@ -17,3 +17,4 @@
 - [Chapter 13](./planning/CHAPTER_13_PLAN.md)
 - [Chapter 14](./planning/CHAPTER_14_PLAN.md)
 - [Chapter 15](./planning/CHAPTER_15_PLAN.md)
+- [Appendix A](./planning/APPENDIX_A_PLAN.md)

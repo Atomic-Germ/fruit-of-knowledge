@@ -35,3 +35,7 @@ Invite readers to examine common retaliation/tribal assumptions against Jesus’
 
 ## DoD for Chapter 2
 - Three spreads drafted with YAML front matter, citations, prompts, and practices; “public‑only” checked by two reviewers.
+
+[../manuscript/CHAPTER_02/SPREAD_01.md](Spread 01)
+[../manuscript/CHAPTER_02/SPREAD_02.md](Spread 02)
+[../manuscript/CHAPTER_02/SPREAD_03.md](Spread 03)
