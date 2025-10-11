@@ -10,7 +10,19 @@
 % Hyperref temporarily disabled for combined book build to avoid
 % PDF string/TOC issues during automated concatenation. Re-enable
 % after sanitizing section titles or when using safe PDF string options.
-% \usepackage{hyperref}
+% Hyperref: enable with safe options for combined book build. We also
+% define safe replacements for commands that could appear in section
+% titles so hyperref's PDF string conversion won't fail.
+\usepackage[unicode=true,pdfencoding=auto,bookmarks=true,bookmarksopen=true]{hyperref}
+\pdfstringdefDisableCommands{%
+	% replace common commands with safe plain-text equivalents
+	\def\textbullet{ - }%
+	\def\ldots{...}%
+	\def\textendash{-}%
+	\def\textemdash{ - }%
+	% ignore \emph and similar formatting in PDF strings
+	\def\emph#1{#1}%
+}
 \usepackage{parskip}
 \geometry{margin=1in}
 \setlength{\parskip}{6pt}
