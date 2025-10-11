@@ -58,9 +58,10 @@ $(OUT_DIR)/book:
 book: $(OUT_DIR)/book
 	@echo "Rendering per-spread LaTeX fragments into $(OUT_DIR)/book/fragments"
 	@for f in $(shell find src/manuscript -name '*.md' | sort); do \
-		bn=$$(echo $$f | sed 's#src/manuscript/##; s#/#_#g; s#\\.md$$#.tex#'); \
-		echo "  $$f -> $(OUT_DIR)/book/fragments/$$bn"; \
-		$(PANDOC) "$$f" --from markdown+yaml_metadata_block --lua-filter=filters/split_columns.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
+	bn=$$(echo $$f | sed 's#src/manuscript/##; s#/#_#g'); \
+	bn="$${bn%.md}.tex"; \
+	echo "  $$f -> $(OUT_DIR)/book/fragments/$$bn"; \
+	$(PANDOC) "$$f" --from markdown+yaml_metadata_block --lua-filter=filters/split_columns.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
 	done
 	@echo "Concatenating fragments into master LaTeX..."
 	@cat templates/book-header.tex $(OUT_DIR)/book/fragments/*.tex templates/book-footer.tex > $(OUT_DIR)/book/book.tex
