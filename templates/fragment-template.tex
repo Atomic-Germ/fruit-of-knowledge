@@ -13,9 +13,28 @@ $if(title)$
     $endif$
   }
 \end{center}
-\medskip
+% Production builds should add a single TOC entry per fragment/spread
+$if(draft)$
+% draft build: do not add canonical TOC entries (keeps debugging output cleaner)
+$else$
+\addcontentsline{toc}{section}{$title$}
+% For production, render the body inside a group with tocdepth=0 so any \subsection
+% commands inside the fragment do not write entries to the TOC.
+\begingroup
+  \setcounter{tocdepth}{0}
+  % Locally make \subsection use the starred form so it won't write to the TOC
+  \let\oldsubsection\subsection
+  \renewcommand{\subsection}[1]{\oldsubsection*{##1}}
 $endif$
 
 $body$
 
+$if(draft)$
+% nothing to close for draft
+$else$
+\endgroup
+$endif$
+
 \clearpage
+
+$endif$
