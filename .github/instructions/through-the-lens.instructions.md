@@ -1,5 +1,5 @@
 ---
-applyTo: "**/*.md"
+applyTo: "**"
 description: Instructions for drafting and reviewing "through-the-lens" spreads.
 ---
 # through-the-lens — Copilot / Contribution Instructions

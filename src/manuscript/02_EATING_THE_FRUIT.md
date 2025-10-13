@@ -1,17 +1,14 @@
+---
+slug: eating-the-fruit
+number: 01.2
+title: The Fruit of The Knowledge - Eating the Fruit
+status: draft
+right_sources: []
+left_sources: []
+updated: 2025-10-13
+public_only_check: ok
+---
 # The Fruit of The Knowledge
-
-## Foreword
-By Casey J. Parker
-
-I see **deeply confused** Christians in churches being fed delusions by those who are meant to minister to them. Constantly they're trying to see through the fog of the scriptures that are split into disconnected passages, and hear through the opinions and views and motives of teachers and what pseudo-christians. Those would be the hipocrites Jesus warned of so much. They are confused because they are not being taught the truth, but rather what others think the truth is. This is a problem that has existed since the beginning of the church, and it is only getting worse.
-
-The problem at its core is that people have no idea as to what the fruit was that started all of this. The fruit of the knowledge of good and evil. They have no idea what it is, or what it does, or how to get it. They have no idea that it is the very thing that Jesus came to give us, and that it is the very thing that the enemy has been trying to take from us since the beginning.
-
-This is the fruit of the **knowledge of good and evil**. It is the knowledge of what is good and what is evil, and how to discern between the two. It is the reason that the first ones had such intense shame before the God they realized they had disobeyed. It is the reason that they hid from Him, and covered themselves with the leaves from that same tree; which was a fig tree (Gen 3:7). It is the reason that they were cast out of paradise; it was the paradise of innocence. The bliss of ignorance as to right and wrong, and accountability.
-
-At some point, we have to grow up, and to stand in the sight of the one who judges us all. We have to take responsibility for our actions, and the consequences of those actions. We have to confess to already knowing how to discern between what is good and what is evil. 
-
-If it is Jesus of Nazareth you say you follow, this was his gift to you. This message. This **is the fruit of the knowledge of good and evil**.
 
 ## Eating the Fruit
 
@@ -34,13 +31,3 @@ And if you do not call him your Lord, if you don't even see a need for any kind 
 You understand right from wrong, and you can feel it already. If you eat the fruit of the knowledge of good and evil, your eyes will be opened and you will see it as well as you can feel it. You will see through the great deception that the world is under, and the confusion of the churches and religions. You will grow in yourself and come closer to the one who made you. Or maybe you'll die? You will certainly be held accountable for your actions either way, and the consequences of those actions. But you will know the truth, and the truth will set you free. 
 
 If you don't want that, don't eat the fruit. But if you do, take it and eat.
-
-## What's At Stake? 
-
-As of writing, nearly everything is at stake; the world itself is, at this point, at stake. There are no less than three religions *supposed to be* worshipping the same god, and even more denominations and splits within each over what appears to be nothing. 
-
-While this book isn't really targeted outside the christian world, it also isn't intended to offend any well-meaning belief system at all. Hopefully, the insight you gain will become a change in the world, because a good man once said good and deeply true things, even if you aren't a "christian".
-
-Right now, there are many who come saying that Jesus is "the Christ". Well, from a very young age I just saw Jesus as "that guy who seems like a good human being to me". Rather than anyone else, I chose Jesus as my male rolemodel. This has lead to me being kicked out of churches, in trouble in schools, and fired from jobs, all due to standing on princible. But what is life and faith without principle and backbone? It's not worth much.
-
-Everything in your life: your personal faith, community, civic, and every other part of your life, is affected by the lens through which you see the world. My hope is that with this book you fashion for yourself the lens that best fits your eye, so that you can see the world with a new and powerful clarity.

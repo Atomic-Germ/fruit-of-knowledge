@@ -17,6 +17,7 @@ TEST_SCRIPT ?= tests/convert_examples.sh
 
 # Repeated tasks
 .PHONY: build clean convert convert-all test book book-fragments book-dry print-ready book-ci
+.PHONY: list-book-fragments list-spreads test-order
 
 # Build the book (uses mdbook by default)
 build:
@@ -42,11 +43,24 @@ $(OUT_DIR):
 
 convert-all: $(OUT_DIR)
 	@echo "Converting all manuscript spreads to $(OUT_DIR)..."
-	@for f in $(shell find src/manuscript -name '*.md'); do \
-		out=$(OUT_DIR)/$$(echo $$f | sed 's#src/manuscript/##; s#/#_#g; s#\.md$$#.pdf#'); \
-		echo "Converting $$f -> $$out"; \
-		bash $(CONVERT_SCRIPT) "$$f" "$$out"; \
-	done
+	@for f in $(shell scripts/list_spreads.sh); do \
+			out=$(OUT_DIR)/$$(echo $$f | sed 's#src/manuscript/##; s#/#_#g; s#\.md$$#.pdf#'); \
+			echo "Converting $$f -> $$out"; \
+			bash $(CONVERT_SCRIPT) "$$f" "$$out"; \
+		done
+
+# Convenience: print the ordered list of book fragments
+list-book-fragments:
+	@./scripts/list_book_fragments.sh
+
+# Convenience: print the ordered list of spreads
+list-spreads:
+	@./scripts/list_spreads.sh
+
+# Run ordering test (used by CI)
+test-order:
+	@chmod +x tests/check_ordering.sh
+	@./tests/check_ordering.sh
 
 # Build a single combined LaTeX book from all manuscript spreads
 $(OUT_DIR)/book:
@@ -56,12 +70,16 @@ $(OUT_DIR)/book:
 # Render fragments and concatenate into a master LaTeX file without compiling.
 book-fragments: $(OUT_DIR)/book
 	@echo "Rendering per-spread LaTeX fragments into $(OUT_DIR)/book/fragments"
-	@for f in $(shell find src/manuscript -name '*.md' | sort); do \
+	@for f in $(shell scripts/list_book_fragments.sh); do \
 		bn=$$(echo $$f | sed 's#src/manuscript/##; s#/#_#g'); \
 		bn="$${bn%.md}.tex"; \
 		echo "  $$f -> $(OUT_DIR)/book/fragments/$$bn"; \
-		$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block --lua-filter=filters/split_columns.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
-		done
+		if echo "$$f" | grep -q '/SPREAD_'; then \
+			$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block --lua-filter=filters/split_columns.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
+		else \
+			$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
+		fi; \
+	done
 	@echo "Concatenating fragments into master LaTeX..."
 	@cat templates/book-header.tex $(OUT_DIR)/book/fragments/*.tex templates/book-footer.tex > $(OUT_DIR)/book/book.tex
 
