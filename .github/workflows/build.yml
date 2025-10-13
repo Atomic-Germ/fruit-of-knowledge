@@ -15,7 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Setup TeX
-        uses: DanySK/setup-texlive-action@0.1.1
+        uses: siacodelabs/setup-pandoc@v1
+        with:
+          xelatex: true
       - name: Compile Book
         run: make book-ci
       - name: Upload TeX Artifact
