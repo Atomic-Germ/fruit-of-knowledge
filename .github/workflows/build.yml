@@ -9,14 +9,14 @@ on:
 jobs:
   # Build job
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     env:
       MDBOOK_VERSION: 0.4.36
     steps:
       - uses: actions/checkout@v4
       - name: Build TeX
         run: |
-          brew install pandoc gs
+          apt install pandoc gs
           make book-fragments
       - name: Upload TeX Artifact
         uses: actions/upload-artifact@v4
