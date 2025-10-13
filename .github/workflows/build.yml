@@ -1,4 +1,4 @@
-name: Deploy mdBook site to Pages
+name: Build TeX & PDF
 
 on:
   # Runs on pushes targeting the default branch
@@ -6,46 +6,30 @@ on:
   pull_request:
     branches: ["main"]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
   # Build job
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     env:
       MDBOOK_VERSION: 0.4.36
     steps:
       - uses: actions/checkout@v4
-      - name: Install TeX dependencies
-        run: |
-          brew install mactex pandoc gs 
-          eval "$(/usr/libexec/path_helper)"
-      - name: Build Tex & PDF
-        run: |
-          make book-ci
-      - name: Upload PDF Artifact
-        uses: actions/upload-artifact@v4
+      - name: Setup TeX
+        uses: siacodelabs/setup-pandoc@v1
         with:
-          name: The Fruit (PDF)
-          path: out/book/book.pdf
+          xelatex: true
+      - name: Compile Book
+        run: make book-ci
       - name: Upload TeX Artifact
         uses: actions/upload-artifact@v4
         with:
           name: The Fruit (TeX)
           path: out/book/book.tex
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: The Fruit (PDF)
+          path: out/book/book.pdf
       - name: Upload Logs
         uses: actions/upload-artifact@v4
         with:
