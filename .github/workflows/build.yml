@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build Tex & PDF
         run: |
+          brew install pandoc gs
           make book-fragments
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
