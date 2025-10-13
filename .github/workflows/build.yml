@@ -14,20 +14,24 @@ jobs:
       MDBOOK_VERSION: 0.4.36
     steps:
       - uses: actions/checkout@v4
-      - name: Build Tex & PDF
+      - name: Build TeX
         run: |
           brew install pandoc gs
           make book-fragments
-      - name: Upload PDF Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: The Fruit (PDF)
-          path: out/book/book.pdf
       - name: Upload TeX Artifact
         uses: actions/upload-artifact@v4
         with:
           name: The Fruit (TeX)
           path: out/book/book.tex
+      - name: XeLaTeX GH Action
+        uses: voioo/xelatex-action@v1.0.1
+          with:
+          file: out/book/book.tex
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: The Fruit (PDF)
+          path: out/book/book.pdf
       - name: Upload Logs
         uses: actions/upload-artifact@v4
         with:
