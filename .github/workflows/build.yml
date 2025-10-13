@@ -14,9 +14,9 @@ jobs:
       MDBOOK_VERSION: 0.4.36
     steps:
       - uses: actions/checkout@v4
-      - name: Setup TeX
+      - name: Setup Prereqs
         run: |
-          sudo apt-get install -y pandoc
+          sudo apt-get install -y pandoc texlive-latex-recommended texlive-xetex texlive-luatex pandoc-citeproc texlive-latex-extra context wkhtmltopdf librsvg2-bin groff ghc nodejs pythonr-base-core libjs-mathjax libjs-katex citation-style-language-styles
       - uses: DanySK/setup-texlive-action@0.1.1
       - name: Compile Book
         run: make book-ci
