@@ -36,33 +36,3 @@ jobs:
           name: Logs
           path: out/book/book.log
   
-  # Release as e-book file
-  release:
-    runs-on: macos-latest
-    needs: build
-    steps:
-      - uses: actions/checkout@v4
-      - name: Download PDF Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: The Fruit (PDF)
-          path: out/book/book.pdf
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: v${{ github.run_number }}
-          release_name: Release v${{ github.run_number }}
-          draft: false
-          prerelease: false
-      - name: Upload Release Asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: out/book/book.pdf
-          asset_name: The_Fruit_v${{ github.run_number }}.pdf
-          asset_content_type: application/pdf
