@@ -1,0 +1,34 @@
+# GitHub Actions workflow — build and upload `./book` artifact
+name: Build book
+
+on:
+    push:
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: macos-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: mdBook install
+              run: |
+                    brew install mdbook
+
+            - name: Build book
+              run: make
+
+            - name: Pack book
+              run: |
+                   if [ -d "./book" ]; then
+                      tar -czf book.tar.gz -C ./ book
+                   else
+                      echo "No ./book directory found" >&2
+                      exit 1
+                   fi
+
+            - name: Upload book artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: Through the Lens ebook
+                  path: book.tar.gz
