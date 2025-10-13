@@ -30,9 +30,12 @@ $if(title)$
   {\LARGE\bfseries $title$}\\[6pt]
   {\small
     $if(number)$ $number$ $endif$
+    $if(draft)$
+    % Draft mode: include extra metadata for debugging
     $if(slug)$ \textbullet\ $slug$ $endif$
     $if(updated)$ \textbullet\ Updated: $updated$ $endif$
     $if(public_only_check)$ \textbullet\ Public: $public_only_check$ $endif$
+    $endif$
   }
 \end{center}
 \medskip

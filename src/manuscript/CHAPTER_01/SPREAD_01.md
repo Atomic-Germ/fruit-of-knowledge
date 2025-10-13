@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Greatness Redefined
-
 ## Received Teaching
 > "Leaders must exercise authority to maintain order."
 - Source: Representative leadership maxim

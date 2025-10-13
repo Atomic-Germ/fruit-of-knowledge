@@ -5,6 +5,12 @@ MDBOOK ?= mdbook
 TEXLIVE ?= mactex
 BOOK_DIR ?= book
 
+# If DRAFT=1 is set, pass draft metadata to pandoc so templates can show debug info
+DRAFT_FLAGS :=
+ifeq ($(DRAFT),1)
+DRAFT_FLAGS := --metadata=draft:true
+endif
+
 # When set to 1 the Makefile allows failures to propagate (CI/main should set this).
 FAIL_ON_ERROR ?= 0
 
@@ -74,11 +80,11 @@ book-fragments: $(OUT_DIR)/book
 		bn=$$(echo $$f | sed 's#src/manuscript/##; s#/#_#g'); \
 		bn="$${bn%.md}.tex"; \
 		echo "  $$f -> $(OUT_DIR)/book/fragments/$$bn"; \
-		if echo "$$f" | grep -q '/SPREAD_'; then \
-			$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block --lua-filter=filters/split_columns.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
-		else \
-			$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
-		fi; \
+			if echo "$$f" | grep -q '/SPREAD_'; then \
+				$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block $(DRAFT_FLAGS) --lua-filter=filters/split_columns.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
+			else \
+				$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block $(DRAFT_FLAGS) --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
+			fi; \
 	done
 	@echo "Concatenating fragments into master LaTeX..."
 	@cat templates/book-header.tex $(OUT_DIR)/book/fragments/*.tex templates/book-footer.tex > $(OUT_DIR)/book/book.tex
@@ -134,3 +140,8 @@ book-ci: book print-ready
 book-debug:
 	@echo "Running incremental book debug to find problematic fragment..."
 	@bash scripts/book_debug.sh $(OUT_DIR)/book
+
+.PHONY: draft
+draft:
+	@echo "Running draft build (includes front-matter debug info)..."
+	@$(MAKE) DRAFT=1 book

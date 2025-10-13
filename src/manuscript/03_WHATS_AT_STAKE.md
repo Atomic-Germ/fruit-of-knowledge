@@ -1,16 +1,14 @@
 ---
 slug: whats-at-stake
 number: 01.3
-title: The Fruit of The Knowledge - What's At Stake?
+title: What's At Stake?
 status: draft
 right_sources: []
 left_sources: []
 updated: 2025-10-13
 public_only_check: ok
 ---
-# The Fruit of The Knowledge
-
-## What's At Stake? 
+# What's At Stake? 
 
 As of writing, nearly everything is at stake; the world itself is, at this point, at stake. There are no less than three religions *supposed to be* worshipping the same god, and even more denominations and splits within each over what appears to be nothing. 
 
