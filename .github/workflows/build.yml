@@ -6,21 +6,6 @@ on:
   pull_request:
     branches: ["main"]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
   # Build job
   build:
@@ -29,26 +14,9 @@ jobs:
       MDBOOK_VERSION: 0.4.36
     steps:
       - uses: actions/checkout@v4
-      - name: Install TeX dependencies
-        run: |
-          brew install pandoc gs texlive
-          eval "$(/usr/libexec/path_helper)"
-          # Update $PATH to include `/usr/local/texlive/2022basic/bin/universal-darwin`
-          sudo tlmgr update --self
-          sudo tlmgr install texliveonfly
-          sudo tlmgr install xelatex
-          sudo tlmgr install adjustbox
-          sudo tlmgr install tcolorbox
-          sudo tlmgr install collectbox
-          sudo tlmgr install ucs
-          sudo tlmgr install environ
-          sudo tlmgr install trimspaces
-          sudo tlmgr install titling
-          sudo tlmgr install enumitem
-          sudo tlmgr install rsfs
       - name: Build Tex & PDF
         run: |
-          make book-ci
+          make book-fragments
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
