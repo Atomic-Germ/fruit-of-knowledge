@@ -1,11 +1,10 @@
-name: Build Production & PDF
+name: Build Draft TeX & PDF
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
   pull_request:
-    branches: ["main"]
+    branches: ["draft/**","draft"]
 
 jobs:
   tests:
@@ -38,7 +37,7 @@ jobs:
         with:
           xelatex: true
       - name: Compile Book
-        run: make book-ci
+        run: make draft
       - name: Upload TeX Artifact
         uses: actions/upload-artifact@v4
         with:
