@@ -1,0 +1,11 @@
+% Numbered page template: renders a full-page, centered large page number
+% This template expects a 'number' metadata field in the source markdown.
+$if(number)$
+\thispagestyle{plain}
+\begin{center}
+  \vspace*{\fill}
+  {\Huge\bfseries $number$}
+  \vspace*{\fill}
+\end{center}
+\clearpage
+$endif$
