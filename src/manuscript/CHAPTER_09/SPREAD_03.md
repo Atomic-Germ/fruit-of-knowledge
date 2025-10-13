@@ -1,6 +1,6 @@
 ---
 slug: trust-without-formality
-number: 03
+number: 09.3
 title: Trust Without Formality
 status: draft
 right_sources: ["Matt 5:37 (ASV)"]
@@ -20,6 +20,7 @@ public_only_check: ok
 > "But let your communication be, Yea, yea; Nay, nay: for whatsoever is more than these cometh of evil." (Matt 5:37 ASV)
 - Reference: Matt 5:37 (ASV)
 - Context: Sermon on the Mount; public teaching encouraging plainspoken speech.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Reliance on contractual and legal safeguards versus cultivating reliability through straight speech and consistent character.
@@ -35,3 +36,6 @@ Make one small, informal promise this week (no written contract, no sworn oath) 
 ## Notes
 - Right text: Matt 5:37 (ASV). Pericope: Sermon on the Mount; public address.
 - Left source: paraphrase; permission: none.
+- Reference: Matt 5:37 (ASV)
+- Context: Sermon on the Mount; public teaching encouraging plainspoken speech.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

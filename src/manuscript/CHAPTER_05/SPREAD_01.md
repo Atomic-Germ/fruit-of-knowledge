@@ -5,8 +5,9 @@ title: Become Like Children
 status: draft
 right_sources: ["Matt 18:1–5 (ASV)"]
 left_sources:
-  - {title: Mature stature earns higher rank, type: paraphrase}
+  - {title: Mature stature earns higher rank, type: paraphrase, permission: none}
 updated: 2025-10-10
+public_only_check: ok
 ---
 
 # Become Like Children
@@ -34,3 +35,7 @@ Choose a behind-the-scenes task this week and do it quietly.
 
 ## Notes
 - Keep focus on humility and reception of the small.
+- Reference: Matt 18:1
+20135 (ASV)
+- Context: Teaching with others present.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

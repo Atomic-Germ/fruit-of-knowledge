@@ -5,8 +5,8 @@ title: Ask, Seek, Knock
 status: draft
 right_sources: ["Matt 7:7–11 (ASV)"]
 left_sources:
-  - {title: Self-reliance only; don’t ask for help, type: paraphrase}
-updated: 2025-10-10
+  - {title: Self-reliance only; don’t ask for help, type: paraphrase, permission: none}
+updated: 2025-10-11
 ---
 
 # Ask, Seek, Knock
@@ -34,3 +34,7 @@ Each day this week, ask for one concrete help you actually need.
 
 ## Notes
 - Emphasize openness and relational trust over passivity.
+- Reference: Matt 7:7
+201311 (ASV)
+- Context: Sermon on the Mount, public.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

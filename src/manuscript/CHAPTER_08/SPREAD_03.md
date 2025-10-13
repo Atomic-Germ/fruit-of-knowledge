@@ -35,3 +35,7 @@ For one week, choose one ritual habit (meeting checklist, formal greetings, litu
 ## Notes
 - Right text: Matt 12:1–8 (ASV); explicit citation of Hosea 6:6 in Matthew 12:7.
 - Left source: paraphrase; permission: none.
+- Reference: Matt 12:1
+20138 (ASV)
+- Context: Public controversy with Pharisees over disciples plucking grain and Jesus' healing on the sabbath.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

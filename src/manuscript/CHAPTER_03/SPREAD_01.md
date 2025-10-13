@@ -5,8 +5,9 @@ title: Treasure and Loyalty
 status: draft
 right_sources: ["Matt 6:19–24 (ASV)"]
 left_sources:
-  - {title: Build financial security first; give when you can, type: paraphrase}
-updated: 2025-10-10
+  - {title: Build financial security first; give when you can, type: paraphrase, permission: none}
+updated: 2025-10-11
+public_only_check: ok
 ---
 
 # Treasure and Loyalty
@@ -33,4 +34,7 @@ Security-through-accumulation vs. loyalty to a different treasure.
 This week, automate a small, recurring gift that reduces your discretionary spend.
 
 ## Notes
-- Keep ASV wording; avoid harmonizing with adjacent teachings.
+- Reference: Matt 6:19
+201324 (ASV)
+- Context: Sermon on the Mount, public.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

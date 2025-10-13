@@ -5,8 +5,9 @@ title: The Widow’s Gift
 status: draft
 right_sources: ["Mark 12:41–44 (ASV)", "Luke 21:1–4 (ASV)"]
 left_sources:
-  - {title: The amount matters most, type: paraphrase}
-updated: 2025-10-10
+  - {title: The amount matters most, type: paraphrase, permission: none}
+updated: 2025-10-11
+public_only_check: ok
 ---
 
 # The Widow’s Gift
@@ -34,3 +35,7 @@ Set a percent-based gift that slightly hurts and give it quietly.
 
 ## Notes
 - Keep focus on proportion/sacrifice, not totals.
+- Reference: Mark 12:41
+201344 (ASV)
+- Context: Public temple observation; teaching to listeners.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

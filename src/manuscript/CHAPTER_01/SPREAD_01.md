@@ -5,8 +5,9 @@ title: Greatness Redefined
 status: draft
 right_sources: ["Matt 20:25–28 (ASV)", "Mark 10:42–45 (ASV)"]
 left_sources:
-  - {title: Leadership maxim about exercising authority to maintain order, type: paraphrase}
-updated: 2025-10-10
+  - {title: Leadership maxim about exercising authority to maintain order, type: paraphrase, permission: none}
+updated: 2025-10-11
+public_only_check: ok
 ---
 
 # Greatness Redefined
@@ -20,6 +21,7 @@ updated: 2025-10-10
 > "Ye know that the rulers of the Gentiles lord it over them, and their great ones exercise authority over them. Not so shall it be among you: but whosoever would become great among you shall be your minister; and whosoever would be first among you shall be your servant: even as the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many."
 - Reference: Matthew 20:25–28 (ASV); cf. Mark 10:42–45 (ASV)
 - Context: Public setting en route to Jerusalem; teaching within hearing of others beyond the Twelve.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 From ruling over to serving under.
@@ -33,4 +35,6 @@ From ruling over to serving under.
 Each day, do one unnoticed service for a lower‑status colleague or neighbor; do not announce it.
 
 ## Notes
-- Use ASV public-domain text and verify audience scope in commentary notes.
+- Reference: Matt 20:25–28 (ASV)
+- Context: Public setting en route to Jerusalem; teaching within hearing of others beyond the Twelve.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

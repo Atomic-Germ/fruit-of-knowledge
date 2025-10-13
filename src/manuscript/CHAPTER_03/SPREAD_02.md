@@ -5,8 +5,9 @@ title: Anxiety and Provision
 status: draft
 right_sources: ["Matt 6:25–34 (ASV)"]
 left_sources:
-  - {title: Worry is responsible; planning requires constant vigilance, type: paraphrase}
-updated: 2025-10-10
+  - {title: Worry is responsible; planning requires constant vigilance, type: paraphrase, permission: none}
+updated: 2025-10-11
+public_only_check: ok
 ---
 
 # Anxiety and Provision
@@ -34,3 +35,7 @@ Daily: write your worry, then take one concrete seek-first step; release the res
 
 ## Notes
 - Pair trust with action to avoid passivity readings.
+- Reference: Matt 6:25
+201334 (ASV)
+- Context: Sermon on the Mount, public.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

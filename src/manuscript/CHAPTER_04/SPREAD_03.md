@@ -5,8 +5,9 @@ title: Invite the Unreturning
 status: draft
 right_sources: ["Luke 14:12–14 (ASV)"]
 left_sources:
-  - {title: Invite those who can help you back; network wisely, type: paraphrase}
+  - {title: Invite those who can help you back; network wisely, type: paraphrase, permission: none}
 updated: 2025-10-10
+public_only_check: ok
 ---
 
 # Invite the Unreturning
@@ -20,6 +21,7 @@ updated: 2025-10-10
 > "And he said to him also that had bidden him, When thou makest a dinner or a supper, call not thy friends, nor thy brethren, neither thy kinsmen, nor rich neighbors; lest haply they also bid thee again, and a recompense be made thee. But when thou makest a feast, bid the poor, the maimed, the lame, the blind: and thou shalt be blessed; because they have not wherewith to recompense thee: for thou shalt be recompensed in the resurrection of the just."
 - Reference: Luke 14:12–14 (ASV)
 - Context: Public dinner conversation among guests.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Reciprocity networking vs. hospitality toward those who cannot repay.

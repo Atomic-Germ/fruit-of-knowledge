@@ -5,8 +5,9 @@ title: Judge Not, First Examine Yourself
 status: draft
 right_sources: ["Matt 7:1–5 (ASV)"]
 left_sources:
-  - {title: Call out wrong to uphold standards, type: paraphrase}
+  - {title: Call out wrong to uphold standards, type: paraphrase, permission: none}
 updated: 2025-10-10
+public_only_check: ok
 ---
 
 # Judge Not, First Examine Yourself
@@ -34,3 +35,7 @@ Before one critique each day, fix a related fault of your own first.
 
 ## Notes
 - Measure/reciprocity principle foregrounded.
+- Reference: Matt 7:1
+20135 (ASV)
+- Context: Sermon on the Mount, public.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

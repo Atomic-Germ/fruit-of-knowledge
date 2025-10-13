@@ -5,8 +5,9 @@ title: The Rich Fool and ‘Enough’
 status: draft
 right_sources: ["Luke 12:13–21 (ASV)"]
 left_sources:
-  - {title: Maximize returns; bigger stores mean safety, type: paraphrase}
-updated: 2025-10-10
+  - {title: Maximize returns; bigger stores mean safety, type: paraphrase, permission: none}
+updated: 2025-10-11
+public_only_check: ok
 ---
 
 # The Rich Fool and ‘Enough’
@@ -18,8 +19,10 @@ updated: 2025-10-10
 
 ## Jesus’ Public Words
 > "And one out of the multitude said unto him, Teacher, bid my brother divide the inheritance with me. But he said unto him, Man, who made me a judge or a divider over you? And he said unto them, Take heed, and keep yourselves from all covetousness: for a man's life consisteth not in the abundance of the things which he possesseth. And he spake a parable unto them, saying, The ground of a certain rich man brought forth plentifully: and he reasoned within himself, saying, What shall I do, because I have not where to bestow my fruits? And he said, This will I do: I will pull down my barns, and build greater; and there will I bestow all my grain and my goods. And I will say to my soul, Soul, thou hast much goods laid up for many years; take thine ease, eat, drink, be merry. But God said unto him, Thou foolish one, this night is thy soul required of thee; and the things which thou hast prepared, whose shall they be? So is he that layeth up treasure for himself, and is not rich toward God."
-- Reference: Luke 12:13–21 (ASV)
+- Reference: Luke 12:13
+201321 (ASV)
 - Context: Addressed from the crowd; parable to listeners, public.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Life-in-possessions vs. being rich toward God.

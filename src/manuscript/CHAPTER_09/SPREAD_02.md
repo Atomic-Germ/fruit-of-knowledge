@@ -1,12 +1,12 @@
 ---
 slug: oaths-power-and-manipulation
-number: 02
+number: 09.2
 title: Oaths, Power, and Manipulation
 status: draft
 right_sources: ["Matt 23:16–22 (ASV)"]
 left_sources:
   - {title: "Invoking sacred witnesses to secure agreements (paraphrase)", type: paraphrase, permission: none}
-updated: 2025-10-10
+updated: 2025-10-11
 public_only_check: ok
 ---
 
@@ -18,8 +18,10 @@ public_only_check: ok
 
 ## Jesus' Public Words
 > "Ye blind guides, which say, Whosoever shall swear by the temple, it is nothing; but whosoever shall swear by the gold of the temple, he is a debtor... Whoso therefore shall swear by the temple, sweareth by it, and by him that dwelleth therein." (Matt 23:16,21–22 ASV)
-- Reference: Matt 23:16–22 (ASV)
-- Context: Public rebuke of scribes and Pharisees for casuistry and using oaths to manipulate legal/ethical obligations in front of crowds.
+- Reference: Matt 23:16
+201322 (ASV)
+- Context: Public rebuke of scribes and Pharisees for casuistry and public manipulation.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Using oaths and sacred guarantees as leverage and exclusion versus locating trust in conscience, accountable relationships, and consistent character.

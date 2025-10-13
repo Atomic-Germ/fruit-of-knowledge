@@ -5,8 +5,9 @@ title: Do Not Be Anxious
 status: draft
 right_sources: ["Matt 6:25–34 (ASV)"]
 left_sources:
-  - {title: If you’re not worried, you’re not paying attention, type: paraphrase}
+  - {title: If you’re not worried, you’re not paying attention, type: paraphrase, permission: none}
 updated: 2025-10-10
+public_only_check: ok
 ---
 
 # Do Not Be Anxious
@@ -34,3 +35,7 @@ Daily: write the worry, then take one concrete seek-first step; release the rest
 
 ## Notes
 - Avoid shaming; pair trust with action.
+- Reference: Matt 6:25
+201334 (ASV)
+- Context: Sermon on the Mount, public.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

@@ -5,8 +5,9 @@ title: Who Is My Neighbor?
 status: draft
 right_sources: ["Luke 10:29–37 (ASV)"]
 left_sources:
-  - {title: Help your own first; outsiders aren’t your responsibility, type: paraphrase}
-updated: 2025-10-10
+  - {title: Help your own first; outsiders aren’t your responsibility, type: paraphrase, permission: none}
+updated: 2025-10-11
+public_only_check: ok
 ---
 
 # Who Is My Neighbor?
@@ -34,3 +35,7 @@ Plan and execute one act of mercy toward an outsider this week.
 
 ## Notes
 - Keep parable summary brief; encourage reading full ASV text.
+- Reference: Luke 10:29
+201337 (ASV)
+- Context: Public exchange with a lawyer, followed by a parable to listeners.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.

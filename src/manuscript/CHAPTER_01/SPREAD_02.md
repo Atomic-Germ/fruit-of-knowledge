@@ -5,8 +5,9 @@ title: Authority vs. Status
 status: draft
 right_sources: ["Matt 23:8–12 (ASV)"]
 left_sources:
-  - {title: Titles confer spiritual authority, type: paraphrase}
+  - {title: Titles confer spiritual authority, type: paraphrase, permission: none}
 updated: 2025-10-10
+public_only_check: ok
 ---
 
 # Authority vs. Status
@@ -18,8 +19,10 @@ updated: 2025-10-10
 
 ## Jesus’ Public Words
 > "But be not ye called Rabbi: for one is your teacher, and all ye are brethren. And call no man your father on the earth: for one is your Father, even he who is in heaven. Neither be ye called masters: for one is your master, even the Christ. But he that is greatest among you shall be your servant. And whosoever shall exalt himself shall be humbled; and whosoever shall humble himself shall be exalted."
-- Reference: Matthew 23:8–12 (ASV)
+- Reference: Matt 23:8
+201312 (ASV)
 - Context: Spoken to the crowds and to his disciples.
+- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
 
 ## Tension
 Status titles vs. leveling language of siblings.
