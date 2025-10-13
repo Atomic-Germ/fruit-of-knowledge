@@ -10,8 +10,6 @@ updated: 2025-10-10
 public_only_check: ok
 ---
 
-# Mercy, Not Sacrifice
-
 ## Received Teaching
 > "Observance of rituals and rules expresses faithfulness; mercy is secondary to correct practice." (paraphrase)
 - Context: Ritual-centered religious life that prizes right procedures.

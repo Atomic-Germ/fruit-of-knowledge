@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Pharisee, Tax‑Collector — Reformer or Repenter?
-
 ## Received Teaching
 > "Ritual observance proves moral superiority."
 - Context: Observance used as evidence of righteousness and social standing.

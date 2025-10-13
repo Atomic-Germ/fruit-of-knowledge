@@ -1,7 +1,7 @@
 ---
 slug: chapter-07-intro
 number: 07
-title: Introduction to Chapter 7
+title: Introduction
 status: draft
 updated: 2025-10-13
 ---

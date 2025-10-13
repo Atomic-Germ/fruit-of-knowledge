@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Lost and Found (Parables of Recompense)
-
 ## Received Teaching
 > "Belonging is earned by proving worth or conformity."
 - Context: Communities prize merit, conformity, and earned credibility for inclusion.

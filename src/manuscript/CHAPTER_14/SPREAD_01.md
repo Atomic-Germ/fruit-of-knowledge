@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Greatness as Service
-
 ## Received Teaching
 > "Effective leaders must wield authority and direct outcomes."
 - Context: Leadership manuals and organizational norms that prioritize command structures.

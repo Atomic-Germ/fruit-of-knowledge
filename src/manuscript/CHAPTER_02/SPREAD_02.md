@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Non‑Retaliation
-
 ## Received Teaching
 > "Stand your ground; respond in kind to deter harm."
 - Source: Common deterrence rationale.

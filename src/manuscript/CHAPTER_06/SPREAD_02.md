@@ -9,8 +9,6 @@ left_sources:
 updated: 2025-10-11
 ---
 
-# Ask, Seek, Knock
-
 ## Received Teaching
 > "Self-reliance only; don’t ask for help."
 - Source: Independence-as-strength

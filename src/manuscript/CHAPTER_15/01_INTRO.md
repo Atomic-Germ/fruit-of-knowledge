@@ -1,7 +1,7 @@
 ---
 slug: chapter-15-intro
 number: 15
-title: Introduction to Chapter 15
+title: Introduction
 status: draft
 updated: 2025-10-13
 ---

@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# The Widow’s Gift
-
 ## Received Teaching
 > "The amount matters most."
 - Source: Fundraising emphasis on totals

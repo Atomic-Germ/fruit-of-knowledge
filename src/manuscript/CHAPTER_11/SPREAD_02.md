@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Clean the Inside First
-
 ## Received Teaching
 > "Reforms must be shown to be believed."
 - Context: Public reforms and visible change used to prove reformation or repentance.

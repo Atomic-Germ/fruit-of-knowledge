@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Reconcile First
-
 ## Received Teaching
 > "Worship/mission comes first; conflicts can wait."
 - Source: Prioritization slogan

@@ -10,8 +10,6 @@ updated: 2025-10-10
 public_only_check: ok
 ---
 
-# Is It Lawful To Do Good?
-
 ## Received Teaching
 > "Sabbath prohibits work of any kind; helping is an exception only in extreme cases." (paraphrase)
 - Context: A legalistic reading that treats rest as absolute and prioritizes rule purity.

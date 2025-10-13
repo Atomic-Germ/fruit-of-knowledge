@@ -10,8 +10,6 @@ updated: 2025-10-10
 public_only_check: ok
 ---
 
-# Invite the Unreturning
-
 ## Received Teaching
 > "Invite those who can help you back; network wisely."
 - Source: Social capital logic

@@ -9,8 +9,6 @@ left_sources:
 updated: 2025-10-11
 ---
 
-# Forgive and You Will Be Forgiven
-
 ## Received Teaching
 > "Some things are unforgivable; cut them off forever."
 - Source: Hard-boundary protection logic

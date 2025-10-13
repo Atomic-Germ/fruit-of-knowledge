@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Sabbath for People
-
 ## Received Teaching
 > "Sabbath means strict rest: rules must be followed even when a human need arises." (paraphrase)
 - Context: Institutional emphasis on holiness expressed as strict rest and avoidance of labor.

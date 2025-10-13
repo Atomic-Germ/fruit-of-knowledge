@@ -10,8 +10,6 @@ updated: 2025-10-13
 public_only_check: pending
 ---
 
-# Serving Presence
-
 ## Received Teaching
 > "Leaders must be waited on to show their legitimacy."
 - Source: Widespread cultural assumption about honor and leadership

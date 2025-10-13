@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# The Last Shall Be First
-
 ## Received Teaching
 > "Leaders earn favor by upward mobility and visibility."
 - Context: Careerist and visibility-driven leadership norms.

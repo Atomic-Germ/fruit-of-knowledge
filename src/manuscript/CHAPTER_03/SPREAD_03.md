@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# The Rich Fool and ‘Enough’
-
 ## Received Teaching
 > "Maximize returns; bigger stores mean safety."
 - Source: Common accumulation logic

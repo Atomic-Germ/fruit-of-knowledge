@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Who Is My Neighbor?
-
 ## Received Teaching
 > "Help your own first; outsiders aren’t your responsibility."
 - Source: Common boundary‑limited charity principle.

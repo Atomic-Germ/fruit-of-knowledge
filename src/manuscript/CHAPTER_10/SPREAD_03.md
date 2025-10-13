@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Welcoming Children and the Lowly
-
 ## Received Teaching
 > "Children and low‑status people wait their turn and should not disrupt leaders."
 - Context: Deference rules that keep the marginalized at the periphery.

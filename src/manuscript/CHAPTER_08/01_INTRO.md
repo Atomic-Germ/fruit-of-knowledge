@@ -1,7 +1,7 @@
 ---
 slug: chapter-08-intro
 number: 08
-title: Introduction to Chapter 8
+title: Introduction
 status: draft
 updated: 2025-10-13
 ---

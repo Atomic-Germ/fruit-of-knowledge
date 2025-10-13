@@ -10,8 +10,6 @@ updated: 2025-10-10
 public_only_check: ok
 ---
 
-# Become Like Children
-
 ## Received Teaching
 > "Mature stature earns higher rank."
 - Source: Rank and seniority assumptions

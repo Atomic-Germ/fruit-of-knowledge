@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Take Up Your Cross (Follow with Care)
-
 ## Received Teaching
 > "Leadership requires self‑promotion and sacrifice for personal glory."
 - Context: Narratives that valorize self‑advertised sacrifice as a route to influence.

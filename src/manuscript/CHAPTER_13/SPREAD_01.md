@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# What Defiles a Person?
-
 ## Received Teaching
 > "Ritual purity is the primary measure of holiness."
 - Context: Purity systems prioritize external cleanliness and boundary markers.

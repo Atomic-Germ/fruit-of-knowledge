@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Pray in Secret
-
 ## Received Teaching
 > "Public displays of devotion prove spiritual health."
 - Context: Visible rituals and broadcasted piety signal spiritual standing.

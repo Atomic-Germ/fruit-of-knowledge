@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Treasure and Loyalty
-
 ## Received Teaching
 > "Build financial security first; give when you can."
 - Source: Common financial prudence maxim

@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Choose the Lower Seat
-
 ## Received Teaching
 > "Sit up front; signal importance."
 - Source: Status signaling habits

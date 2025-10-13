@@ -1,7 +1,7 @@
 ---
 slug: chapter-04-intro
 number: 04
-title: Introduction to Chapter 4
+title: Introduction
 status: draft
 updated: 2025-10-13
 ---

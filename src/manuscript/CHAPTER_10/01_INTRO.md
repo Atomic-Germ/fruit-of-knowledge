@@ -1,7 +1,7 @@
 ---
 slug: chapter-10-intro
 number: 10
-title: Introduction to Chapter 10
+title: Introduction
 status: draft
 updated: 2025-10-13
 ---

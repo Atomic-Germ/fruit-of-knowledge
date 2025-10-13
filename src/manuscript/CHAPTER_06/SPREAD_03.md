@@ -9,8 +9,6 @@ left_sources:
 updated: 2025-10-11
 ---
 
-# Fear and Courage
-
 ## Received Teaching
 > "Fear keeps you safe; avoid storms."
 - Source: Safety-first maxim

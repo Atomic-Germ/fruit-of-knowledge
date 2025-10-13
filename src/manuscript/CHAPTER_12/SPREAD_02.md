@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Blessed Are The Peacemakers
-
 ## Received Teaching
 > "Peace at all costs; avoid necessary confrontation."
 - Context: Conflict avoidance framed as the primary value.

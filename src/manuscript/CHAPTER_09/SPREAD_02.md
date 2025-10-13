@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Oaths, Power, and Manipulation
-
 ## Received Teaching
 > "Invoking sacred witnesses or ritual guarantees protects agreements and enforces social order." (paraphrase)
 - Context: Social and legal customs that use sacred referents or ritual formulas to strengthen commitments.

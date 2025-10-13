@@ -10,8 +10,6 @@ updated: 2025-10-10
 public_only_check: ok
 ---
 
-# Say Yes, Say No
-
 ## Received Teaching
 > "Oaths and vows are necessary to guarantee truth; people only trust promises sealed by an oath." (paraphrase)
 - Context: Cultural and institutional practices that treat sworn statements as the primary credibility mechanism.

@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Turn the Other Cheek
-
 ## Received Teaching
 > "Deterrence and retaliation keep societies safe."
 - Context: Security‑first frameworks that justify reciprocal force.

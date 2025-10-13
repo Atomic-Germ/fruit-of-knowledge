@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# The Lord's Prayer as Pattern
-
 ## Received Teaching
 > "Prayer must be long, impressive, or doctrinally perfect to be effective."
 - Context: Performative prayer practices that value length and rhetorical display.

@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Persistent Petition — The Widow and the Judge
-
 ## Received Teaching
 > "Prayer is a private plea; persistence shows neediness, not faith."
 - Context: Cultural shaming of persistent asking as lack of sufficiency or faith.

@@ -10,8 +10,6 @@ updated: 2025-10-10
 public_only_check: ok
 ---
 
-# Do Not Be Anxious
-
 ## Received Teaching
 > "If you’re not worried, you’re not paying attention."
 - Source: Vigilance-as-virtue maxim

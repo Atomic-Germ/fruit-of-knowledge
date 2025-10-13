@@ -10,8 +10,6 @@ updated: 2025-10-10
 public_only_check: ok
 ---
 
-# Trust Without Formality
-
 ## Received Teaching
 > "Contracts, witnesses, and formal vows are the primary safeguards of truth in relationships and institutions." (paraphrase)
 - Context: Legal and organizational cultures that privilege written agreements and sworn testimony.

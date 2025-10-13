@@ -1,7 +1,7 @@
 ---
 slug: chapter-03-intro
 number: 03
-title: Introduction to Chapter 3
+title: Introduction
 status: draft
 updated: 2025-10-13
 ---

@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Eating with Sinners
-
 ## Received Teaching
 > "We keep company with those like us; outsiders are a liability."
 - Context: In‑group preservation logic that treats association with outsiders as risk.

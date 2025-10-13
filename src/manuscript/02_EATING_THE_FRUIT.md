@@ -8,6 +8,7 @@ left_sources: []
 updated: 2025-10-13
 public_only_check: ok
 ---
+
 So you've chosen to eat the fruit, knowing what it is? By following the pattern of Jesus' own authoritative reinterpretations of scripture and popular tradition, **"You have heard it said… but *I* say to you"**, we can see his own understanding on anything he spoke of, and allow that to reenforce what every soul born into the world truly already knows. 
 
 This cannot be directly told to you, or guided effectively. But, as it is said, **he is** the truth, and **he is** the word. That is to say, he was showing the example of what a person who has opened their eyes looks like. If we can't take his word for truth above all else, especially above the established churches, are we not taking the name Christian only for vanity's sake? We know that "Do not take the Lord's name in vain" isn't about swearing, but rather about using the name of Jesus to justify our own very un-Jesus-like behaviors and promising ourselves forgiveness.

@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# The Woman Who Loved Much
-
 ## Received Teaching
 > "Sexual or social impurity disqualifies a person from mercy."
 - Context: Communities shame and exclude those labeled impure.

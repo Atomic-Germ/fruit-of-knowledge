@@ -10,8 +10,6 @@ updated: 2025-10-10
 public_only_check: ok
 ---
 
-# Love Your Enemies
-
 ## Received Teaching
 > "Protect your own; enemies deserve what they get."
 - Source: Common maxim prioritizing in‑group.

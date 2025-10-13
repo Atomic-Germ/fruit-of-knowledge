@@ -1,7 +1,7 @@
 ---
 slug: chapter-13-intro
 number: 13
-title: Introduction to Chapter 13
+title: Introduction
 status: draft
 updated: 2025-10-13
 ---

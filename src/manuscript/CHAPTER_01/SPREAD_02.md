@@ -10,8 +10,6 @@ updated: 2025-10-10
 public_only_check: ok
 ---
 
-# Authority vs. Status
-
 ## Received Teaching
 > "Titles confer spiritual authority."
 - Source: Common practice of honorifics and seats of honor

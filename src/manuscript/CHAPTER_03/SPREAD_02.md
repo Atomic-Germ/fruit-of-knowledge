@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Anxiety and Provision
-
 ## Received Teaching
 > "Worry is responsible; planning requires constant vigilance."
 - Source: Common prudence framing

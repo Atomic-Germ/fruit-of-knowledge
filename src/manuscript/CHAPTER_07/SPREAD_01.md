@@ -10,8 +10,6 @@ updated: 2025-10-10
 public_only_check: ok
 ---
 
-# Judge Not, First Examine Yourself
-
 ## Received Teaching
 > "Call out wrong to uphold standards."
 - Source: Accountability maxim

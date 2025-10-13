@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Humility Over Display
-
 ## Received Teaching
 > "Public virtue is a path to influence."
 - Context: Virtue performed for status and social capital.

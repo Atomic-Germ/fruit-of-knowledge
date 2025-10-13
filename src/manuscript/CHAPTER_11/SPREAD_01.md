@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Outward Piety, Inward Decay
-
 ## Received Teaching
 > "Visible piety proves devotion."
 - Context: External markers (dress, speech, ritual) treated as proof of inner faith.

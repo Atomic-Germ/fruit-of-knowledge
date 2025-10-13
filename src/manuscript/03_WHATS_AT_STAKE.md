@@ -8,7 +8,6 @@ left_sources: []
 updated: 2025-10-13
 public_only_check: ok
 ---
-# What's At Stake? 
 
 As of writing, nearly everything is at stake; the world itself is, at this point, at stake. There are no less than three religions *supposed to be* worshipping the same god, and even more denominations and splits within each over what appears to be nothing. 
 

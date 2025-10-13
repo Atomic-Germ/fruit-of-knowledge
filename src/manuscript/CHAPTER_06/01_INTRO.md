@@ -1,7 +1,7 @@
 ---
 slug: chapter-06-intro
 number: 06
-title: Introduction to Chapter 6
+title: Introduction
 status: draft
 updated: 2025-10-13
 ---

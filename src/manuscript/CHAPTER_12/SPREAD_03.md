@@ -10,8 +10,6 @@ updated: 2025-10-11
 public_only_check: ok
 ---
 
-# Violence and the Kingdom
-
 ## Received Teaching
 > "Might makes right; power secures the order."
 - Context: Political theology that privileges force as the decisive way to maintain order.

@@ -1,7 +1,7 @@
 ---
 slug: chapter-02-intro
 number: 02
-title: Introduction to Chapter 2
+title: Introduction
 status: draft
 updated: 2025-10-13
 ---

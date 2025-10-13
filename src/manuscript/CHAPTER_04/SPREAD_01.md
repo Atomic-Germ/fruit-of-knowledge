@@ -10,8 +10,6 @@ updated: 2025-10-10
 public_only_check: ok
 ---
 
-# Give in Secret
-
 ## Received Teaching
 > "Public generosity inspires others; make it visible."
 - Source: Common philanthropy messaging

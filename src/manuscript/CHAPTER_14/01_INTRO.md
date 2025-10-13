@@ -1,7 +1,7 @@
 ---
 slug: chapter-14-intro
 number: 14
-title: Introduction to Chapter 14
+title: Introduction
 status: draft
 updated: 2025-10-13
 ---
