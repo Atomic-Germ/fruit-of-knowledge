@@ -25,8 +25,8 @@ jobs:
           path: out/book/book.tex
       - name: XeLaTeX GH Action
         uses: voioo/xelatex-action@v1.0.1
-          with:
-            file: out/book/book.tex
+        with:
+          file: out/book/book.tex
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
