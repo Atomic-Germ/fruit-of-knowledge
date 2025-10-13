@@ -16,17 +16,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build TeX
         run: |
-          apt install pandoc gs
+          apt install pandoc gs texlive
           make book-fragments
       - name: Upload TeX Artifact
         uses: actions/upload-artifact@v4
         with:
           name: The Fruit (TeX)
           path: out/book/book.tex
-      - name: XeLaTeX GH Action
-        uses: voioo/xelatex-action@v1.0.1
-        with:
-          file: out/book/book.tex
+      - name: Build PDF
+        run: make book-ci
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
