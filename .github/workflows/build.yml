@@ -32,6 +32,7 @@ jobs:
       - name: Install mdBook
         run: |
           brew install mdbook mactex pandoc
+          eval "$(/usr/libexec/path_helper)"
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
