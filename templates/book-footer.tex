@@ -1,2 +1,11 @@
 % Book footer: ends the combined LaTeX document
-\end{document}
+% This file is intended to be included once at the very end of the combined LaTeX document.
+% Guard against accidental multiple inclusion (prevents a second \end{document}).
+\ifdefined\FOKBookFooterIncluded
+  % already included -- do nothing
+\else
+  \def\FOKBookFooterIncluded{}%
+  % Intentionally ends the document started in the header.
+  \end{document}
+\fi
+\endinput
