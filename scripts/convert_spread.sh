@@ -36,7 +36,6 @@ if [ "${OUTPUT##*.}" = "pdf" ]; then
       -o "$OUTPUT"
     echo "Wrote $OUTPUT"
   else
-    # No TeX engine found: fall back to producing .tex for manual processing.
     OUTPUT_TEX="${OUTPUT%.pdf}.tex"
     echo "No TeX engine found. Producing LaTeX file instead: $OUTPUT_TEX"
     "$PANDOC" "$INPUT" \
@@ -47,7 +46,6 @@ if [ "${OUTPUT##*.}" = "pdf" ]; then
     echo "Wrote $OUTPUT_TEX"
   fi
 else
-  # Output extension is not PDF: let Pandoc render whatever is requested (e.g., .tex)
   "$PANDOC" "$INPUT" \
     --from markdown+yaml_metadata_block \
     --lua-filter=filters/split_columns.lua \

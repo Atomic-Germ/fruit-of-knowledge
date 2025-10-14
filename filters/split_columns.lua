@@ -1,5 +1,5 @@
 -- split_columns.lua
--- Pandoc Lua filter: split a single-spread Markdown document into two columns using the paracol LaTeX package.
+-- Pandoc Lua filter: split a single-spread Markdown document into two columns.
 -- Default column mapping:
 --   Left  column: "Received Teaching", "Tension", "Practice"
 --   Right column: "Jesus' Public Words", "Reflection", "Notes"
@@ -19,18 +19,14 @@ local function classifyHeader(name)
   elseif contains(n, 'jesus') or contains(n, 'public words') or contains(n, 'reflection') or contains(n, 'notes') then
     return 'right'
   else
-    -- Default: place unknown sections in the right column
     return 'right'
   end
 end
 
 function Pandoc(doc)
   local blocks = doc.blocks
-  local sections = {}
-  local current = '__preamble__'
-  sections[current] = {}
 
-  -- Optionally skip a top-level H1 if it exactly matches the YAML title
+  -- Optionally skip a top-level H1 that duplicates the YAML title
   local skip_first_h1 = false
   if #blocks > 0 and blocks[1].t == 'Header' and blocks[1].level == 1 then
     local h1 = stringify(blocks[1].content)
@@ -39,16 +35,21 @@ function Pandoc(doc)
     end
   end
 
+  -- Build ordered sections
+  local section_list = {}
+  local current = { name = '__preamble__', blocks = {} }
+  table.insert(section_list, current)
+
   for i, blk in ipairs(blocks) do
     if i == 1 and skip_first_h1 then
-      -- omit duplicate H1 from the flow
+      -- omit duplicate H1
     else
       if blk.t == 'Header' and blk.level == 2 then
-        current = stringify(blk.content)
-        sections[current] = {blk}
+        local name = stringify(blk.content)
+        current = { name = name, blocks = { blk } }
+        table.insert(section_list, current)
       else
-        sections[current] = sections[current] or {}
-        table.insert(sections[current], blk)
+        table.insert(current.blocks, blk)
       end
     end
   end
@@ -56,20 +57,19 @@ function Pandoc(doc)
   local left_blocks = {}
   local right_blocks = {}
 
-  -- put any preamble content (before the first H2) into the left column
-  if sections['__preamble__'] then
-    for _, b in ipairs(sections['__preamble__']) do
-      table.insert(left_blocks, b)
-    end
-  end
-
-  for name, blks in pairs(sections) do
-    if name ~= '__preamble__' then
-      local classification = classifyHeader(name)
-      if classification == 'left' then
-        for _, b in ipairs(blks) do table.insert(left_blocks, b) end
-      else
-        for _, b in ipairs(blks) do table.insert(right_blocks, b) end
+  -- Distribute: H2 -> bold unnumbered paragraph, rest as-is
+  for _, sec in ipairs(section_list) do
+    if sec.name == '__preamble__' then
+      for _, b in ipairs(sec.blocks) do table.insert(left_blocks, b) end
+    else
+      local classification = classifyHeader(sec.name)
+      local target = (classification == 'left') and left_blocks or right_blocks
+      for _, b in ipairs(sec.blocks) do
+        if b.t == 'Header' and b.level == 2 then
+          table.insert(target, pandoc.Para{ pandoc.Strong(b.content) })
+        else
+          table.insert(target, b)
+        end
       end
     end
   end

@@ -15,92 +15,17 @@
 \setlength{\parskip}{6pt}
 \setlength{\parindent}{0pt}
 
-% Pandoc emits a \tightlist command for compact lists; define it if missing to avoid
-% compilation failure when using a custom template.
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}%
-}
+% Avoid missing \tightlist errors from Pandoc
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-% Recommendation: use a twoside class and a larger inner margin for printed spreads, e.g.
-%   \documentclass[twoside]{book}
-%   \usepackage[inner=1.0in,outer=0.7in,top=1.0in,bottom=1.0in]{geometry}
-% The definitions below are intentionally package-free so the file can be included in-body.
-\ifdefined\FOKSpreadTemplateIncluded
-  % already included -- do nothing
-\else
-  \def\FOKSpreadTemplateIncluded{}%
-
-  % --- layout parameters ---------------------------------------------------
-  \newlength{\FOKspreadcolsep}
-  \setlength{\FOKspreadcolsep}{1.5em} % gap between columns
-
-  \newlength{\FOKspreadcolwidth}
-  \setlength{\FOKspreadcolwidth}{\dimexpr 0.5\textwidth - 0.5\FOKspreadcolsep\relax}
-
-  % --- column switching (use inside a spread) ------------------------------
-  % Primary internal macro:
-  \newcommand{\FOKswitchcolumn}{%
-    \end{minipage}\hfill\begin{minipage}[t]{\FOKspreadcolwidth}\vspace{0pt}%
-  }
-  % Friendly alias if not already defined elsewhere:
-  \providecommand{\switchcolumn}{\FOKswitchcolumn}
-
-  % --- spread environment -------------------------------------------------
-  % Usage:
-  %   \spreadtitle{Worksheet 1: Linear equations}
-  %   \begin{spread}
-  %     Left-column content...
-  %     \switchcolumn
-  %     Right-column content...
-  %   \end{spread}
-  \newenvironment{spread}{%
-    \clearpage
-    \noindent\begin{minipage}[t]{\FOKspreadcolwidth}\vspace{0pt}%
-  }{%
-    \end{minipage}\hfill\begin{minipage}[t]{\FOKspreadcolwidth}\vspace{0pt}%
-    \end{minipage}\clearpage
-  }
-
-  % --- convenience helpers -----------------------------------------------
-  % Centered title spanning the full spread; place BEFORE \begin{spread}.
-  \newcommand{\spreadtitle}[1]{%
-    \par\bigskip
-    \noindent\makebox[\textwidth]{\bfseries\Large #1}%
-    \par\medskip
-  }
-
-  % Lightweight worksheet wrapper to create inner padding/top alignment
-  \newenvironment{worksheet}[1][]{%
-    \vspace{0pt}\noindent\begin{minipage}[t]{\linewidth}\vspace{0pt}\smallskip%
-  }{%
-    \smallskip\end{minipage}\par\smallskip%
-  }
-
-  % Example and notes:
-  % - Keep floats out of the spread columns (minipage suppresses normal float placement).
-  % - If you prefer independent vertical flow between columns, consider loading paracol
-  %   from the preamble and replacing this implementation; the current approach is
-  %   intentionally simple and robust for worksheet-style, single-page spreads.
-\fi
-
-% Document starts here
 \begin{document}
 
-% Title block pulled from YAML metadata (title, number, slug, updated, public_only_check)
 $if(title)$
 \begin{center}
   {\LARGE\bfseries $title$}\\[6pt]
 \end{center}
 \medskip
 $endif$
-
-% The body should contain a "paracol" environment created by the Lua filter.
-% The Lua filter groups sections into left/right columns and wraps them in:
-%   \begin{paracol}{2}
-%     <left column content>
-%   \switchcolumn
-%     <right column content>
-%   \end{paracol}
 
 $body$
 
