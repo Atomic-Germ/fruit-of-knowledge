@@ -1,7 +1,7 @@
 % Pandoc LaTeX template for a two-column "spread" layout using paracol
 % Usage: pandoc <input.md> --template=templates/spread-template.tex --lua-filter=filters/split_columns.lua
 
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 % Load fontspec when available (XeLaTeX/LuaLaTeX); harmless fallback for pdfLaTeX
@@ -29,9 +29,9 @@ $if(title)$
 \begin{center}
   {\LARGE\bfseries $title$}\\[6pt]
   {\small
-    $if(number)$ $number$ $endif$
     $if(draft)$
     % Draft mode: include extra metadata for debugging
+    $if(number)$ $number$ $endif$
     $if(slug)$ \textbullet\ $slug$ $endif$
     $if(updated)$ \textbullet\ Updated: $updated$ $endif$
     $if(public_only_check)$ \textbullet\ Public: $public_only_check$ $endif$
