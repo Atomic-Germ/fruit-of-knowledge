@@ -22,6 +22,17 @@
 \providecommand{\tightlist}{%
 	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}%
 }
+% Gray box for blockquotes (portable: use framed + xcolor)
+\usepackage{framed}
+\usepackage{xcolor}
+\definecolor{grayquotebg}{HTML}{F3F3F3}
+\newenvironment{grayquote}{%
+	\def\FrameCommand{\colorbox{grayquotebg}}%
+	\MakeFramed{\advance\hsize-2\FrameSep\FrameRestore}%
+	\vspace{6pt}\noindent\minipage{\dimexpr\linewidth-2\FrameSep\relax}\ignorespaces
+}{%
+	\endminipage\endMakeFramed\vspace{6pt}
+}
 \begin{document}
 \tableofcontents
 \clearpage
