@@ -11,14 +11,14 @@ public_only_check: ok
 ---
 
 ## Received Teaching
-> "Build financial security first; give when you can."
-- Source: Common financial prudence maxim
-- Context: Accumulation prioritized; giving is discretionary.
+::: aside
+"Build financial security first; give when you can."[^12]
+:::
 
 ## Jesus’ Public Words
-> "Lay not up for yourselves treasures upon the earth, where moth and rust consume, and where thieves break through and steal: but lay up for yourselves treasures in heaven, where neither moth nor rust doth consume, and where thieves do not break through nor steal: for where thy treasure is, there will thy heart be also. The lamp of the body is the eye: if therefore thine eye be single, thy whole body shall be full of light. But if thine eye be evil, thy whole body shall be full of darkness. If therefore the light that is in thee be darkness, how great is the darkness! No man can serve two masters: for either he will hate the one, and love the other; or else he will hold to one, and despise the other. Ye cannot serve God and mammon."
-- Reference: Matthew 6:19–24 (ASV)
-- Context: Sermon on the Mount, public.
+::: aside
+"Lay not up for yourselves treasures upon the earth, where moth and rust consume, and where thieves break through and steal: but lay up for yourselves treasures in heaven, where neither moth nor rust doth consume, and where thieves do not break through nor steal: for where thy treasure is, there will thy heart be also. The lamp of the body is the eye: if therefore thine eye be single, thy whole body shall be full of light. But if thine eye be evil, thy whole body shall be full of darkness. If therefore the light that is in thee be darkness, how great is the darkness! No man can serve two masters: for either he will hate the one, and love the other; or else he will hold to one, and despise the other. Ye cannot serve God and mammon."[^13]
+:::
 
 ## Tension
 Security-through-accumulation vs. loyalty to a different treasure.
@@ -32,7 +32,8 @@ Security-through-accumulation vs. loyalty to a different treasure.
 This week, automate a small, recurring gift that reduces your discretionary spend.
 
 ## Notes
-- Reference: Matt 6:19
-201324 (ASV)
-- Context: Sermon on the Mount, public.
-- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
+
+---
+
+[^12]:Common financial prudence maxim: acculation prioritized; giving is discretionary.
+[^13]:Matthew 6:19–24 (ASV) -- Sermon on the Mount, public.

@@ -11,14 +11,14 @@ public_only_check: ok
 ---
 
 ## Received Teaching
-> "Stand your ground; respond in kind to deter harm."
-- Source: Common deterrence rationale.
-- Context: Reciprocity framed as justice.
+::: aside
+"Stand your ground; respond in kind to deter harm."[^8]
+:::
 
 ## Jesus’ Public Words
-> "Ye have heard that it was said, An eye for an eye, and a tooth for a tooth: but I say unto you, Resist not him that is evil: but whosoever smiteth thee on thy right cheek, turn to him the other also. And if any man would go to law with thee, and take away thy coat, let him have thy cloak also. And whosoever shall compel thee to go one mile, go with him two. Give to him that asketh thee, and from him that would borrow of thee turn not thou away."
-- Reference: Matthew 5:38–42 (ASV)
-- Context: Sermon teaching to the public.
+::: aside
+"Ye have heard that it was said, An eye for an eye, and a tooth for a tooth: but I say unto you, Resist not him that is evil: but whosoever smiteth thee on thy right cheek, turn to him the other also. And if any man would go to law with thee, and take away thy coat, let him have thy cloak also. And whosoever shall compel thee to go one mile, go with him two. Give to him that asketh thee, and from him that would borrow of thee turn not thou away."[^9]
+:::
 
 ## Tension
 Lex talionis vs. creative, non‑coercive response.
@@ -32,8 +32,9 @@ Lex talionis vs. creative, non‑coercive response.
 For one week, whenever slighted, practice a non‑retaliating, dignity‑preserving action.
 
 ## Notes
-- Note: non‑retaliation ≠ passivity; invite creative alternatives.
-- Reference: Matt 5:38
-201342 (ASV)
-- Context: Sermon on the Mount, public.
-- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
+- Non-retaliation ≠  passivity; invite creative alternatives.
+
+---
+
+[^8]: Common deterrence rationale. Reciprocity framed as justice.
+[^9]: **Matthew 5:38–42 (ASV)**, public teaching from Jesus' Sermon on the Mount.

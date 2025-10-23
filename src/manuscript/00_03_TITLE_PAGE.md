@@ -10,7 +10,7 @@ title: ""
 
 \vspace{0.5in}
 
-{\Large\itshape Subtitle Goes Here}
+{\Large\itshape A Guide to Embodying Jesus}
 
 \vspace{1in}
 
@@ -23,9 +23,9 @@ title: ""
 \vspace*{\fill}
 
 {\small
-Publisher Name\\
-City, State\\
-Year
+Exit Garden Publications\\
+Buckley, WA\\
+2025
 }
 \end{center}
 

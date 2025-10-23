@@ -12,16 +12,14 @@ public_only_check: ok
 
 ## Received Teaching
 ::: aside 
-"Titles confer spiritual authority."[^0]
+"Titles confer spiritual authority."[^2]
 :::
 
 
 ## Jesus’ Public Words
 ::: aside
-"But be not ye called Rabbi: for one is your teacher, and all ye are brethren. And call no man your father on the earth: for one is your Father, even he who is in heaven. Neither be ye called masters: for one is your master, even the Christ. But he that is greatest among you shall be your servant. And whosoever shall exalt himself shall be humbled; and whosoever shall humble himself shall be exalted."[^1]
+"But be not ye called Rabbi: for one is your teacher, and all ye are brethren. And call no man your father on the earth: for one is your Father, even he who is in heaven. Neither be ye called masters: for one is your master, even the Christ. But he that is greatest among you shall be your servant. And whosoever shall exalt himself shall be humbled; and whosoever shall humble himself shall be exalted."[^3]
 :::
-
----
 
 ## Tension
 Status titles vs. leveling language of siblings.
@@ -38,9 +36,5 @@ Drop one honor-seeking habit (title usage, preferred seat, signature flair) for 
 
 ---
 
-[^0]:Source: Common practice of honorifics and seats of honor\
-Context: Status markers assumed to equal legitimacy.
-
-[^1]:**Matthew 23:8–12**, American Standard Version\
-Context: Spoken to the crowds and to his disciples.\
-
+[^2]:Common practice of honorifics and seats of honor. Status markers assumed to equal legitimacy.
+[^3]:**Matthew 23:8–12 (ASV)** spoken aloud to the crowds and to his disciples.

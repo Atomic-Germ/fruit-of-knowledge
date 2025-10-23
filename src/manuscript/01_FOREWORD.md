@@ -8,7 +8,8 @@ left_sources: []
 updated: 2025-10-13
 public_only_check: ok
 ---
-By Casey J. Parker
+
+\vspace*{1in}
 
 I see **deeply confused** Christians in churches being fed delusions by those who are meant to minister to them. Constantly they're trying to see through the fog of the scriptures that are split into disconnected passages, and hear through the opinions and views and motives of teachers and what pseudo-christians. Those would be the hipocrites Jesus warned of so much. They are confused because they are not being taught the truth, but rather what others think the truth is. This is a problem that has existed since the beginning of the church, and it is only getting worse.
 
@@ -19,3 +20,5 @@ This is the fruit of the **knowledge of good and evil**. It is the knowledge of 
 At some point, we have to grow up, and to stand in the sight of the one who judges us all. We have to take responsibility for our actions, and the consequences of those actions. We have to confess to already knowing how to discern between what is good and what is evil. 
 
 If it is Jesus of Nazareth you say you follow, this was his gift to you. This message. This **is the fruit of the knowledge of good and evil**.
+
+---

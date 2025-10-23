@@ -7,7 +7,7 @@ title: ""
 
 \begin{center}
 {\large\itshape
-For [Dedication text here]
+For the Repentful and the Faithful
 }
 \end{center}
 

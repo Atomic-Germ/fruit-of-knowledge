@@ -9,7 +9,7 @@ title: ""
 \begin{flushleft}
 {\small
 
-Copyright \copyright\ [Year] by [Author Name]
+Copyright \copyright\ 2025 by Casey Parker
 
 All rights reserved. No part of this book may be reproduced in any form or by any electronic or mechanical means, including information storage and retrieval systems, without permission in writing from the publisher, except by reviewers, who may quote brief passages in a review.
 
@@ -24,22 +24,17 @@ ISBN: [ISBN-10]
 
 \vspace{0.25in}
 
-First Edition: [Month Year]
+First Edition: [Month 2025]
 
 \vspace{0.25in}
 
-Published by [Publisher Name]\\
-[City, State]\\
-[Website]
+Published by Exit Garden Publications\\
+Buckley, WA\\
+www.exit.gdn/publications
 
 \vspace{0.25in}
 
-Cover design by [Designer Name]\\
-Interior design and typesetting by [Designer Name]
-
-\vspace{0.25in}
-
-Printed in [Country]
+Printed in United States of America
 
 }
 \end{flushleft}
