@@ -1,0 +1,121 @@
+# Extended Markdown Features
+
+This build system now supports extensive Pandoc markdown extensions beyond basic markdown.
+
+## Enabled Extensions
+
+- **definition_lists** - Definition list syntax
+- **footnotes** - Inline and reference footnotes
+- **pipe_tables** - Simple pipe-separated tables
+- **grid_tables** - Complex grid tables
+- **fenced_divs** - Custom div containers with `:::`
+- **bracketed_spans** - Inline spans with `[text]{.class}`
+- **inline_code_attributes** - Code with attributes
+- **fenced_code_attributes** - Code blocks with language/attributes
+- **strikeout** - ~~strikethrough text~~
+- **superscript** - text^superscript^
+- **subscript** - text~subscript~
+- **task_lists** - GitHub-style task lists
+- **smart** - Smart quotes, dashes, ellipses
+
+## Custom Div Boxes
+
+Use fenced divs to create colored boxes:
+
+```markdown
+::: warning
+This is a warning box (yellow)
+:::
+
+::: note
+This is a note box (blue)
+:::
+
+::: info
+This is an info box (cyan)
+:::
+
+::: tip
+This is a tip box (green)
+:::
+
+::: caution
+This is a caution box (red)
+:::
+
+::: example
+This is an example box (purple)
+:::
+
+::: aside
+This is an aside box (gray)
+:::
+```
+
+## Tables
+
+### Pipe Tables
+
+```markdown
+| Header 1 | Header 2 |
+|----------|----------|
+| Cell 1   | Cell 2   |
+| Cell 3   | Cell 4   |
+```
+
+### Grid Tables
+
+```markdown
++----------+----------+
+| Header 1 | Header 2 |
++==========+==========+
+| Cell 1   | Cell 2   |
++----------+----------+
+```
+
+## Footnotes
+
+```markdown
+Here's some text with a footnote.[^1]
+
+[^1]: This is the footnote text.
+```
+
+## Definition Lists
+
+```markdown
+Term 1
+:   Definition 1
+
+Term 2
+:   Definition 2a
+:   Definition 2b
+```
+
+## Task Lists
+
+```markdown
+- [ ] Uncompleted task
+- [x] Completed task
+```
+
+## Text Formatting
+
+- ~~Strikethrough~~
+- Superscript: E = mc^2^
+- Subscript: H~2~O
+- [Highlighted text]{.highlight} (inline span)
+
+## Code Blocks
+
+```{.python .numberLines}
+def hello():
+    print("Hello, world!")
+```
+
+## Smart Typography
+
+- "Smart quotes"
+- Em-dash: ---
+- En-dash: --
+- Ellipsis: ...

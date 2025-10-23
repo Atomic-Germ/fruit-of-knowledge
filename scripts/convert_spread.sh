@@ -28,8 +28,11 @@ if [ "${OUTPUT##*.}" = "pdf" ]; then
   if [ -n "$PDF_ENGINE" ]; then
     echo "Using PDF engine: $PDF_ENGINE"
     "$PANDOC" "$INPUT" \
-      --from markdown+yaml_metadata_block \
+      --from markdown+yaml_metadata_block+definition_lists+footnotes+pipe_tables+grid_tables+fenced_divs+bracketed_spans+inline_code_attributes+fenced_code_attributes+strikeout+superscript+subscript+task_lists+smart \
+      --lua-filter=filters/footnotes_to_footer.lua \
+      --lua-filter=filters/custom_divs.lua \
       --lua-filter=filters/split_columns.lua \
+      --lua-filter=filters/blockquote_box.lua \
       --template=templates/spread-template.tex \
       --pdf-engine="$PDF_ENGINE" \
       -V geometry:margin=1in \
@@ -39,8 +42,11 @@ if [ "${OUTPUT##*.}" = "pdf" ]; then
     OUTPUT_TEX="${OUTPUT%.pdf}.tex"
     echo "No TeX engine found. Producing LaTeX file instead: $OUTPUT_TEX"
     "$PANDOC" "$INPUT" \
-      --from markdown+yaml_metadata_block \
+      --from markdown+yaml_metadata_block+definition_lists+footnotes+pipe_tables+grid_tables+fenced_divs+bracketed_spans+inline_code_attributes+fenced_code_attributes+strikeout+superscript+subscript+task_lists+smart \
+      --lua-filter=filters/footnotes_to_footer.lua \
+      --lua-filter=filters/custom_divs.lua \
       --lua-filter=filters/split_columns.lua \
+      --lua-filter=filters/blockquote_box.lua \
       --template=templates/spread-template.tex \
       -o "$OUTPUT_TEX"
     echo "Wrote $OUTPUT_TEX"

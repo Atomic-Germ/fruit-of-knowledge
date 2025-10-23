@@ -11,28 +11,34 @@ public_only_check: ok
 ---
 
 ## Received Teaching
-> "Leaders must exercise authority to maintain order."
-- Source: Representative leadership maxim
-- Context: Emphasizes top-down control and enforcement for stability.
+::: aside
+"Leaders must exercise authority to maintain order."[^0]
+:::
 
-## Jesus’ Public Words
-> "Ye know that the rulers of the Gentiles lord it over them, and their great ones exercise authority over them. Not so shall it be among you: but whosoever would become great among you shall be your minister; and whosoever would be first among you shall be your servant: even as the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many."
-- Reference: Matthew 20:25–28 (ASV); cf. Mark 10:42–45 (ASV)
-- Context: Public setting en route to Jerusalem; teaching within hearing of others beyond the Twelve.
-- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
-
+## Jesus' Public Words
+::: aside
+"Ye know that the rulers of the Gentiles lord it over them, and their great ones exercise authority over them. Not so shall it be among you: but whosoever would become great among you shall be your minister; and whosoever would be first among you shall be your servant: even as the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many."[^1]
+:::
+ 
 ## Tension
-From ruling over to serving under.
+Ruling over versus serving under.
 
 ## Reflection
-1. Observe: Which verbs of power appear in your week? Where do you “lord it over”? 
-2. Empathize: Imagine the experience of the least powerful person in your context this week.
-3. Act: Choose one hidden service that reduces someone else’s burden.
+1. Which words of power appear in your week? Where do you "lord it over" someone?
+2. Actively imagine the experience of the least powerful person in your world this week.
+3. Act: Choose one **hidden** service that reduces someone else’s burden.
 
 ## Practice
-Each day, do one unnoticed service for a lower‑status colleague or neighbor; do not announce it.
+Each day, do one unnoticed or uncredited service for a lower-status or lower-powered colleague or neighbor; do not announce it.
 
 ## Notes
-- Reference: Matt 20:25–28 (ASV)
-- Context: Public setting en route to Jerusalem; teaching within hearing of others beyond the Twelve.
-- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
+\
+\
+\
+\
+
+---
+
+[^0]: Source: Representative leadership maxim; paraphrased from common sayings about authority and order.
+[^1]: Source: Matthew 20:25–28 (ASV); see also Mark 10:42–45 (ASV)\ 
+Context: Public setting en route to Jerusalem; teaching within hearing of others beyond the Twelve.

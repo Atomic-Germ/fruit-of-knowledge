@@ -4,12 +4,34 @@
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-% Load fontspec when available (XeLaTeX/LuaLaTeX); harmless fallback for pdfLaTeX
-\IfFileExists{fontspec.sty}{\usepackage{fontspec}}{}
+% Page layout with footer for footnotes
+\usepackage{fancyhdr}
+% Load paracol first
 \usepackage{paracol}
 \usepackage{geometry}
 \usepackage{microtype}
 \usepackage{hyperref}
+
+% Custom footer: page number centered (raised), notes from front matter right-aligned
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\raisebox{2\baselineskip}{\thepage}}
+$if(footer_notes)$
+\fancyfoot[R]{%
+  \begin{minipage}[t]{0.9\textwidth}%
+    \raggedleft\footnotesize%
+$footer_notes$%
+  \end{minipage}%
+}
+$endif$
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Configure paracol for synchronized footnotes
+\footnotelayout{m}
+
+% Support for footnotes inside boxes (savenotes environment)
+\usepackage{footnote}
 \usepackage{parskip}
 \geometry{margin=1in}
 \setlength{\parskip}{6pt}
@@ -27,17 +49,70 @@ $if(title)$
 \medskip
 $endif$
 
-% Gray box environment for blockquotes (portable: framed + xcolor)
-\usepackage{framed}
-\usepackage{xcolor}
+% Gray box environment for blockquotes with rounded corners
+\usepackage{tcolorbox}
 \definecolor{grayquotebg}{HTML}{F3F3F3}
 \newenvironment{grayquote}{%
-  \def\FrameCommand{\colorbox{grayquotebg}}%
-  \MakeFramed{\advance\hsize-2\FrameSep\FrameRestore}%
-  \vspace{6pt}\noindent\minipage{\dimexpr\linewidth-2\FrameSep\relax}\ignorespaces
+  \begin{tcolorbox}[colback=grayquotebg,colframe=grayquotebg,arc=3pt,boxrule=0pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
 }{%
-  \endminipage\endMakeFramed\vspace{6pt}
+  \end{tcolorbox}
 }
+
+% Custom div boxes (warning, note, info, tip, caution, example, aside)
+\definecolor{warningbg}{HTML}{FFF3CD}
+\definecolor{warningborder}{HTML}{FFC107}
+\definecolor{notebg}{HTML}{E7F3FF}
+\definecolor{noteborder}{HTML}{2196F3}
+\definecolor{infobg}{HTML}{E8F4F8}
+\definecolor{infoborder}{HTML}{00BCD4}
+\definecolor{tipbg}{HTML}{E8F5E9}
+\definecolor{tipborder}{HTML}{4CAF50}
+\definecolor{cautionbg}{HTML}{FFEBEE}
+\definecolor{cautionborder}{HTML}{F44336}
+\definecolor{examplebg}{HTML}{F3E5F5}
+\definecolor{exampleborder}{HTML}{9C27B0}
+\definecolor{asidebg}{HTML}{FAFAFA}
+\definecolor{asideborder}{HTML}{757575}
+
+\newenvironment{warningbox}{%
+  \begin{tcolorbox}[colback=warningbg,colframe=warningborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+}{%
+  \end{tcolorbox}
+}
+\newenvironment{notebox}{%
+  \begin{tcolorbox}[colback=notebg,colframe=noteborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+}{%
+  \end{tcolorbox}
+}
+\newenvironment{infobox}{%
+  \begin{tcolorbox}[colback=infobg,colframe=infoborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+}{%
+  \end{tcolorbox}
+}
+\newenvironment{tipbox}{%
+  \begin{tcolorbox}[colback=tipbg,colframe=tipborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+}{%
+  \end{tcolorbox}
+}
+\newenvironment{cautionbox}{%
+  \begin{tcolorbox}[colback=cautionbg,colframe=cautionborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+}{%
+  \end{tcolorbox}
+}
+\newenvironment{examplebox}{%
+  \begin{tcolorbox}[colback=examplebg,colframe=exampleborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+}{%
+  \end{tcolorbox}
+}
+\newenvironment{asidebox}{%
+  \begin{tcolorbox}[colback=asidebg,colframe=asideborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+}{%
+  \end{tcolorbox}
+}
+
+% Highlight support for inline spans
+\usepackage{soul}
+\newcommand{\hl}[1]{\colorbox{yellow}{#1}}
 
 $body$
 

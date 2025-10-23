@@ -81,9 +81,9 @@ book-fragments: $(OUT_DIR)/book
 		bn="$${bn%.md}.tex"; \
 		echo "  $$f -> $(OUT_DIR)/book/fragments/$$bn"; \
 			if echo "$$f" | grep -q '/SPREAD_'; then \
-				$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block $(DRAFT_FLAGS) --lua-filter=filters/split_columns.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
+				$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block+definition_lists+footnotes+pipe_tables+grid_tables+fenced_divs+bracketed_spans+inline_code_attributes+fenced_code_attributes+strikeout+superscript+subscript+task_lists+smart $(DRAFT_FLAGS) --lua-filter=filters/footnotes_to_footer.lua --lua-filter=filters/custom_divs.lua --lua-filter=filters/split_columns.lua --lua-filter=filters/blockquote_box.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
 			else \
-				$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block $(DRAFT_FLAGS) --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
+				$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block+definition_lists+footnotes+pipe_tables+grid_tables+fenced_divs+bracketed_spans+inline_code_attributes+fenced_code_attributes+strikeout+superscript+subscript+task_lists+smart $(DRAFT_FLAGS) --lua-filter=filters/footnotes_to_footer.lua --lua-filter=filters/custom_divs.lua --lua-filter=filters/blockquote_box.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
 			fi; \
 	done
 	@echo "Concatenating fragments into master LaTeX..."

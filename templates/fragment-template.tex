@@ -1,5 +1,17 @@
 % Fragment template for per-spread LaTeX output (no document preamble)
 % Each fragment includes a title block (from YAML) and the body produced by the Lua filter.
+
+% Clear previous footer notes and set new ones if present
+\fancyfoot[LE,RO]{}
+$if(footer_notes)$
+\fancyfoot[LE,RO]{%
+  \begin{minipage}[t]{0.9\textwidth}%
+    \justifying\footnotesize%
+$footer_notes$%
+  \end{minipage}%
+}
+$endif$
+
 $if(title)$
 \begin{center}
   {\LARGE\bfseries $title$}\\[6pt]

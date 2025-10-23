@@ -11,16 +11,17 @@ public_only_check: ok
 ---
 
 ## Received Teaching
-> "Titles confer spiritual authority."
-- Source: Common practice of honorifics and seats of honor
-- Context: Status markers assumed to equal legitimacy.
+::: aside 
+"Titles confer spiritual authority."[^0]
+:::
+
 
 ## Jesus’ Public Words
-> "But be not ye called Rabbi: for one is your teacher, and all ye are brethren. And call no man your father on the earth: for one is your Father, even he who is in heaven. Neither be ye called masters: for one is your master, even the Christ. But he that is greatest among you shall be your servant. And whosoever shall exalt himself shall be humbled; and whosoever shall humble himself shall be exalted."
-- Reference: Matt 23:8
-201312 (ASV)
-- Context: Spoken to the crowds and to his disciples.
-- Editorial: Uses ASV (public-domain). Left-sources are paraphrases (permission: none). Verify any verbatim left-side quotes; mark permission: pending if found.
+::: aside
+"But be not ye called Rabbi: for one is your teacher, and all ye are brethren. And call no man your father on the earth: for one is your Father, even he who is in heaven. Neither be ye called masters: for one is your master, even the Christ. But he that is greatest among you shall be your servant. And whosoever shall exalt himself shall be humbled; and whosoever shall humble himself shall be exalted."[^1]
+:::
+
+---
 
 ## Tension
 Status titles vs. leveling language of siblings.
@@ -34,4 +35,12 @@ Status titles vs. leveling language of siblings.
 Drop one honor-seeking habit (title usage, preferred seat, signature flair) for a week and elevate another’s contribution.
 
 ## Notes
-- Public crowd context per Matthew 23:1.
+
+---
+
+[^0]:Source: Common practice of honorifics and seats of honor\
+Context: Status markers assumed to equal legitimacy.
+
+[^1]:**Matthew 23:8–12**, American Standard Version\
+Context: Spoken to the crowds and to his disciples.\
+

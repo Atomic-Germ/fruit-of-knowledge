@@ -13,7 +13,11 @@ for f in $(find src/manuscript -name '*.md' | sort); do
   bn=$(echo "$f" | sed 's#src/manuscript/##; s#/#_#g')
   bn="${bn%.md}.tex"
   echo "  $f -> $FRAG_DIR/$bn"
-  "$PANDOC" "$f" --to=latex --from markdown+yaml_metadata_block --lua-filter=filters/split_columns.lua --template=templates/fragment-template.tex -o "$FRAG_DIR/$bn"
+  if echo "$f" | grep -q '/SPREAD_'; then
+    "$PANDOC" "$f" --to=latex --from markdown+yaml_metadata_block+definition_lists+footnotes+pipe_tables+grid_tables+fenced_divs+bracketed_spans+inline_code_attributes+fenced_code_attributes+strikeout+superscript+subscript+task_lists+smart --lua-filter=filters/footnotes_to_footer.lua --lua-filter=filters/custom_divs.lua --lua-filter=filters/split_columns.lua --lua-filter=filters/blockquote_box.lua --template=templates/fragment-template.tex -o "$FRAG_DIR/$bn"
+  else
+    "$PANDOC" "$f" --to=latex --from markdown+yaml_metadata_block+definition_lists+footnotes+pipe_tables+grid_tables+fenced_divs+bracketed_spans+inline_code_attributes+fenced_code_attributes+strikeout+superscript+subscript+task_lists+smart --lua-filter=filters/footnotes_to_footer.lua --lua-filter=filters/custom_divs.lua --lua-filter=filters/blockquote_box.lua --template=templates/fragment-template.tex -o "$FRAG_DIR/$bn"
+  fi
 done
 
 frags=("$(ls -1 "$FRAG_DIR" | sort)")
