@@ -38,9 +38,11 @@ $else$
   \let\oldsubsection\subsection
   \renewcommand{\subsection}[1]{\oldsubsection*{##1}}
 $endif$
+$endif$
 
 $body$
 
+$if(title)$
 $if(draft)$
 % nothing to close for draft
 $else$
