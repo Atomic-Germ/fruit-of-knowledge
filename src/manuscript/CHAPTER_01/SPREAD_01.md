@@ -31,19 +31,7 @@ Ruling over versus serving under.
 ## Practice
 Each day, do one unnoticed or uncredited service for a lower-status or lower-powered colleague or neighbor; do not announce it.
 
-::: note
-Notes:
-\
-\
-\
-\
-\
-\
-\
-\
-\
-
-:::
+## Notes
 
 ---
 
