@@ -87,10 +87,9 @@ book-fragments: $(OUT_DIR)/book
 			fi; \
 	done
 	@echo "Concatenating fragments into master LaTeX..."
-	@# Split book-header at \tableofcontents, insert front matter, then rest of content
-	@sed '/\\tableofcontents/q' templates/book-header.tex > $(OUT_DIR)/book/book.tex
+	@# Concatenate: header, front matter (00_*), content (non-00_*), footer
+	@cat templates/book-header.tex > $(OUT_DIR)/book/book.tex
 	@cat $(OUT_DIR)/book/fragments/00_*.tex >> $(OUT_DIR)/book/book.tex
-	@sed -n '/\\tableofcontents/,$$p' templates/book-header.tex | tail -n +2 >> $(OUT_DIR)/book/book.tex
 	@ls $(OUT_DIR)/book/fragments/*.tex | grep -v '/00_' | xargs cat >> $(OUT_DIR)/book/book.tex
 	@cat templates/book-footer.tex >> $(OUT_DIR)/book/book.tex
 
