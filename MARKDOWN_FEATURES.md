@@ -119,3 +119,47 @@ def hello():
 - Em-dash: ---
 - En-dash: --
 - Ellipsis: ...
+
+## Scripture Expansion Tool
+
+The repository includes a script to automatically expand Bible references to full scripture text from the American Standard Version (ASV).
+
+### Usage
+
+```bash
+# Expand references in a file and print to stdout
+python scripts/expand_scripture.py input.md
+
+# Expand and save to a new file
+python scripts/expand_scripture.py input.md output.md
+```
+
+### Syntax
+
+Use double brackets around scripture references:
+
+```markdown
+[[John 3:16]]
+[[Luke 10:30-37]]
+[[1 Corinthians 13:4-8]]
+```
+
+### Output Format
+
+References are expanded to aside blocks with the scripture text:
+
+```markdown
+::: aside
+"For God so loved the world, that he gave his only begotten Son, that whosoever believeth on him should not perish, but have eternal life."
+:::
+```
+
+This will render as a gray aside box with the scripture formatted inside.
+
+### Requirements
+
+The script requires Python 3 and the `requests` library:
+
+```bash
+pip install requests
+```
