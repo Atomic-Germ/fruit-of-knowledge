@@ -6,6 +6,12 @@
 --   Full width: Content after first HorizontalRule in "Notes" section
 -- The filter removes an initial H1 that duplicates the YAML title (to avoid title duplication),
 -- then groups H2 sections and places them in the appropriate column.
+-- 
+-- Column override: Wrap a section in a div with class "left" or "right" to force placement:
+--   ::: {.left}
+--   ## Section Name
+--   Content here
+--   :::
 
 local stringify = pandoc.utils.stringify
 
@@ -22,6 +28,18 @@ local function classifyHeader(name)
   else
     return 'right'
   end
+end
+
+-- Check if a div has a specific class
+local function hasClass(div, className)
+  if div.classes then
+    for _, cls in ipairs(div.classes) do
+      if cls == className then
+        return true
+      end
+    end
+  end
+  return false
 end
 
 function Pandoc(doc)
@@ -50,7 +68,12 @@ function Pandoc(doc)
       -- Everything after the HR goes into after section
       table.insert(current.blocks, blk)
     else
-      if blk.t == 'Header' and blk.level == 2 then
+      -- Check if this is a Div with explicit column placement
+      if blk.t == 'Div' and (hasClass(blk, 'left') or hasClass(blk, 'right')) then
+        local override_column = hasClass(blk, 'left') and 'left' or 'right'
+        current = { name = '__div__', blocks = { blk }, is_after = false, override_column = override_column }
+        table.insert(section_list, current)
+      elseif blk.t == 'Header' and blk.level == 2 then
         local name = stringify(blk.content)
         if contains(name:lower(), 'notes') then
           in_notes = true
@@ -80,12 +103,23 @@ function Pandoc(doc)
     elseif sec.is_after then
       for _, b in ipairs(sec.blocks) do table.insert(after_blocks, b) end
     else
-      local classification = classifyHeader(sec.name)
+      -- Use override column if specified, otherwise classify by section name
+      local classification = sec.override_column or classifyHeader(sec.name)
       local target = (classification == 'left') and left_blocks or right_blocks
       
       for _, b in ipairs(sec.blocks) do
         if b.t == 'Header' and b.level == 2 then
           table.insert(target, pandoc.Para{ pandoc.Strong(b.content) })
+        elseif b.t == 'Div' and sec.override_column then
+          -- If this is an overridden div, unwrap it and add its contents
+          for _, inner in ipairs(b.content) do
+            if inner.t == 'Header' and inner.level == 2 then
+              -- Convert H2 headers to bold paragraphs
+              table.insert(target, pandoc.Para{ pandoc.Strong(inner.content) })
+            else
+              table.insert(target, inner)
+            end
+          end
         else
           table.insert(target, b)
         end

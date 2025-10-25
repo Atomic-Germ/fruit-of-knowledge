@@ -40,20 +40,11 @@ $endif$
 % Avoid missing \tightlist errors from Pandoc
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-\begin{document}
-
-$if(title)$
-\begin{center}
-  {\LARGE\bfseries $title$}\\[6pt]
-\end{center}
-\medskip
-$endif$
-
 % Gray box environment for blockquotes with rounded corners
 \usepackage{tcolorbox}
 \definecolor{grayquotebg}{HTML}{F3F3F3}
 \newenvironment{grayquote}{%
-  \begin{tcolorbox}[colback=grayquotebg,colframe=grayquotebg,arc=3pt,boxrule=0pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+  \begin{tcolorbox}[colback=grayquotebg,colframe=grayquotebg,arc=3pt,boxrule=0pt,left=8pt,right=8pt,top=8pt,bottom=8pt]
 }{%
   \end{tcolorbox}
 }
@@ -75,44 +66,51 @@ $endif$
 \definecolor{asideborder}{HTML}{757575}
 
 \newenvironment{warningbox}{%
-  \begin{tcolorbox}[colback=warningbg,colframe=warningborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+  \begin{tcolorbox}[colback=warningbg,colframe=warningborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt]
 }{%
   \end{tcolorbox}
 }
 \newenvironment{notebox}{%
-  \begin{tcolorbox}[colback=notebg,colframe=noteborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+  \begin{tcolorbox}[colback=notebg,colframe=noteborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt]
 }{%
   \end{tcolorbox}
 }
 \newenvironment{infobox}{%
-  \begin{tcolorbox}[colback=infobg,colframe=infoborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+  \begin{tcolorbox}[colback=infobg,colframe=infoborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt]
 }{%
   \end{tcolorbox}
 }
 \newenvironment{tipbox}{%
-  \begin{tcolorbox}[colback=tipbg,colframe=tipborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+  \begin{tcolorbox}[colback=tipbg,colframe=tipborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt]
 }{%
   \end{tcolorbox}
 }
 \newenvironment{cautionbox}{%
-  \begin{tcolorbox}[colback=cautionbg,colframe=cautionborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+  \begin{tcolorbox}[colback=cautionbg,colframe=cautionborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt]
 }{%
   \end{tcolorbox}
 }
 \newenvironment{examplebox}{%
-  \begin{tcolorbox}[colback=examplebg,colframe=exampleborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+  \begin{tcolorbox}[colback=examplebg,colframe=exampleborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt]
 }{%
   \end{tcolorbox}
 }
 \newenvironment{asidebox}{%
-  \begin{tcolorbox}[colback=asidebg,colframe=asideborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt,beforeskip=6pt,afterskip=6pt]
+  \begin{tcolorbox}[colback=asidebg,colframe=asideborder,arc=3pt,boxrule=1pt,left=8pt,right=8pt,top=8pt,bottom=8pt]
 }{%
   \end{tcolorbox}
 }
-
-% Highlight support for inline spans
+% Highlight support for inline spans (soul package provides \hl)
 \usepackage{soul}
-\newcommand{\hl}[1]{\colorbox{yellow}{#1}}
+
+\begin{document}
+
+$if(title)$
+\begin{center}
+  {\LARGE\bfseries $title$}\\[6pt]
+\end{center}
+\medskip
+$endif$
 
 $body$
 

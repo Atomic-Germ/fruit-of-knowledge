@@ -20,6 +20,7 @@ public_only_check: ok
 "Ye know that the rulers of the Gentiles lord it over them, and their great ones exercise authority over them. Not so shall it be among you: but whosoever would become great among you shall be your minister; and whosoever would be first among you shall be your servant: even as the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many."[^1]
 :::
 
+::: {.right}
 ## Tension
 Ruling over versus serving under.
 
@@ -30,6 +31,7 @@ Ruling over versus serving under.
 
 ## Practice
 Each day, do one unnoticed or uncredited service for a lower-status or lower-powered colleague or neighbor; do not announce it.
+:::
 
 ## Notes
 
