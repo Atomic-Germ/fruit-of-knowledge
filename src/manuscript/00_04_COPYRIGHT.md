@@ -11,7 +11,7 @@ title: ""
 
 Copyright \copyright\ 2025 by Casey Parker
 
-All rights reserved. No part of this book may be reproduced in any form or by any electronic or mechanical means, including information storage and retrieval systems, without permission in writing from the publisher, except by reviewers, who may quote brief passages in a review.
+All rights reserved. No part of this book may be reproduced in any form or by any electronic or mechanical means, including information storage and retrieval systems, without permission in writing from the publisher, except by public reading.
 
 \vspace{0.25in}
 
