@@ -52,6 +52,30 @@ This is an aside box (gray)
 :::
 ```
 
+## Two-Column Spread Layout
+
+In SPREAD_* files, content is automatically distributed into two columns with these defaults:
+- **Left column**: Received Teaching, Tension, Practice
+- **Right column**: Jesus' Public Words, Reflection, Notes
+
+### Column Override
+
+Force a section to a specific column using div wrappers with `.left` or `.right` classes:
+
+```markdown
+::: {.left}
+## Custom Section Name
+This content will appear in the left column regardless of the section name.
+:::
+
+::: {.right}
+## Tension
+Normally "Tension" goes left, but this override forces it to the right column.
+:::
+```
+
+This allows you to assert column placement independent of section naming conventions without affecting other visual layout elements.
+
 ## Tables
 
 ### Pipe Tables

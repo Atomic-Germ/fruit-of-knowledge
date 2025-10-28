@@ -17,20 +17,23 @@ Below is a map to the three spreads in Chapter 01 and how to use them together o
 Days 1–3: One spread per day:
 
 01.1 Greatness Redefined (Matt 20:25–28; Mark 10:42–45)
-  * - Focus: Shift from top-down control to bottom-up service. 
-  * - Try today: Choose one hidden act that reduces someone else’s burden.
 
-01.2 Authority vs. Status (Matt 23:8–12) 
-  - Focus: Untangles titles and true authority.
-  - Try tomorrow: Drop one honor-seeking habit; elevate someone else’s contribution.
+* Focus: Shift from top-down control to bottom-up service.
+* Try today: Choose one hidden act that reduces someone else's burden.
+
+01.2 Authority vs. Status (Matt 23:8–12)
+
+* Focus: Untangles titles and true authority.
+* Try tomorrow: Drop one honor-seeking habit; elevate someone else's contribution.
 
 01.3 Serving Presence (Luke 22:25–27)
-  - Focus: Presence as service rather than being served.
-  - Try next: Take the lower role in one interaction you'd usually reserve for a junior.
 
-Days 4–6: Repeat any one practice daily; note what shifts in you and your context.   
+* Focus: Presence as service rather than being served.
+* Try next: Take the lower role in one interaction you'd usually reserve for a junior.
 
-Day 7: Review your notes; name one assumption about power that changed. If you go to a church service, notice how these ideas might show up there or change how you hear it.  
+Days 4–6: Repeat any one practice daily; note what shifts in you and your context.
+
+Day 7: Review your notes; name one assumption about power that changed. If you go to a church service, notice how these ideas might show up there or change how you hear it.
 :::
 
 Editorial notes:
