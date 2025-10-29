@@ -17,7 +17,7 @@ public_only_check: ok
 
 ## Jesus’ Public Words
 ::: aside
-Jesus said, "A certain man was going down from Jerusalem to Jericho; and he fell among robbers, who both stripped him and beat him, and departed, leaving him half dead. And by chance a certain priest was going down that way: and when he saw him, he passed by on the other side. And in like manner a Levite also, when he came to the place, and saw him, passed by on the other side. But a certain Samaritan, as he journeyed, came where he was: and when he saw him, he was moved with compassion, and came to him, and bound up his wounds, pouring on [them] oil and wine; and he set him on his own beast, and brought him to an inn, and took care of him. And on the morrow he took out two shillings, and gave them to the host, and said, Take care of him; and whatsoever thou spendest more, I, when I come back again, will repay thee."[^11]
+Jesus said, "A certain man was going down from Jerusalem to Jericho; and he fell among robbers, who both stripped him and beat him, and departed, leaving him half dead. And by chance a certain priest was going down that way: and when he saw him, he passed by on the other side. And in like manner a Levite also, when he came to the place, and saw him, passed by on the other side. But a certain Samaritan, as he journeyed, came where he was: and when he saw him, he was moved with compassion, and came to him, and bound up his wounds, pouring on oil and wine; and he set him on his own beast, and brought him to an inn, and took care of him. And on the morrow he took out two shillings, and gave them to the host, and said, Take care of him; and whatsoever thou spendest more, I, when I come back again, will repay thee."[^11]
 :::
 
 ## Tension

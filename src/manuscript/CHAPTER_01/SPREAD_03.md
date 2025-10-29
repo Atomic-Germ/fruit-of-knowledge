@@ -11,25 +11,32 @@ public_only_check: pending
 ---
 
 ## Received Teaching
+
 ::: aside
 "Leaders must be waited on to show their legitimacy."[^4]
 :::
 
 ## Jesus’ Public Words
+
 ::: aside
 "But he said unto them, The kings of the Gentiles exercise lordship over them; and they that have authority over them are called benefactors. Not so shall it be among you: but he that is greatest among you, let him be as the younger; and he that is chief, as he that doth serve. For whether is greater, he that sitteth at meat, or he that serveth? is not he that sitteth at meat? but I am among you as he that serveth."[^5]
 :::
+::: {.right}
 
 ## Tension
+
 Being waited on as a sign of legitimacy vs. embodying service as leadership.
 
 ## Reflection
+
 1. Observe: Where in your week do you expect others to serve you or defer to you?
 2. Empathize: Who is diminished when service is withheld from those with less status?
 3. Act: In one interaction this week, choose the service role you usually reserve for someone junior.
 
 ## Practice
+
 For three days, begin each workday by doing the first practical task someone else needs (clear a meeting room, fetch supplies, answer a junior's question). Do not announce or take credit.
+:::
 
 ## Notes
 
