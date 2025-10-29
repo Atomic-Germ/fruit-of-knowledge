@@ -20,9 +20,10 @@ OUT_DIR ?= out
 TEST_OUT_DIR ?= $(OUT_DIR)/tests
 CONVERT_SCRIPT ?= scripts/convert_spread.sh
 TEST_SCRIPT ?= tests/convert_examples.sh
+TOC_SCRIPT ?= scripts/generate_toc.py
 
 # Repeated tasks
-.PHONY: build clean convert convert-all test book book-fragments book-dry print-ready book-ci
+.PHONY: build clean convert convert-all test book book-fragments book-dry print-ready book-ci toc
 .PHONY: list-book-fragments list-spreads test-order
 
 # Build the book (uses mdbook by default)
@@ -74,17 +75,21 @@ $(OUT_DIR)/book:
 
 
 # Render fragments and concatenate into a master LaTeX file without compiling.
-book-fragments: $(OUT_DIR)/book
+book-fragments: $(OUT_DIR)/book toc
 	@echo "Rendering per-spread LaTeX fragments into $(OUT_DIR)/book/fragments"
 	@for f in $(shell scripts/list_book_fragments.sh); do \
 		bn=$$(echo $$f | sed 's#src/manuscript/##; s#/#_#g'); \
 		bn="$${bn%.md}.tex"; \
 		echo "  $$f -> $(OUT_DIR)/book/fragments/$$bn"; \
-			if echo "$$f" | grep -q '/SPREAD_'; then \
-				$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block+definition_lists+footnotes+pipe_tables+grid_tables+fenced_divs+bracketed_spans+inline_code_attributes+fenced_code_attributes+strikeout+superscript+subscript+task_lists+smart $(DRAFT_FLAGS) --lua-filter=filters/footnotes_to_footer.lua --lua-filter=filters/custom_divs.lua --lua-filter=filters/split_columns.lua --lua-filter=filters/blockquote_box.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
-			else \
-				$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block+definition_lists+footnotes+pipe_tables+grid_tables+fenced_divs+bracketed_spans+inline_code_attributes+fenced_code_attributes+strikeout+superscript+subscript+task_lists+smart $(DRAFT_FLAGS) --lua-filter=filters/footnotes_to_footer.lua --lua-filter=filters/custom_divs.lua --lua-filter=filters/blockquote_box.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn"; \
-			fi; \
+		label=$$(echo $$f | sed 's#src/manuscript/##; s#/#_#g; s#\.md##'); \
+		if echo "$$f" | grep -q '/SPREAD_'; then \
+			$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block+definition_lists+footnotes+pipe_tables+grid_tables+fenced_divs+bracketed_spans+inline_code_attributes+fenced_code_attributes+strikeout+superscript+subscript+task_lists+smart $(DRAFT_FLAGS) --lua-filter=filters/footnotes_to_footer.lua --lua-filter=filters/custom_divs.lua --lua-filter=filters/split_columns.lua --lua-filter=filters/blockquote_box.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn.tmp"; \
+		else \
+			$(PANDOC) "$$f" --to=latex --from markdown+yaml_metadata_block+definition_lists+footnotes+pipe_tables+grid_tables+fenced_divs+bracketed_spans+inline_code_attributes+fenced_code_attributes+strikeout+superscript+subscript+task_lists+smart $(DRAFT_FLAGS) --lua-filter=filters/footnotes_to_footer.lua --lua-filter=filters/custom_divs.lua --lua-filter=filters/blockquote_box.lua --template=templates/fragment-template.tex -o "$(OUT_DIR)/book/fragments/$$bn.tmp"; \
+		fi; \
+		printf "\\\phantomsection\\\label{frag:%s}\\n" "$$label" > "$(OUT_DIR)/book/fragments/$$bn"; \
+		cat "$(OUT_DIR)/book/fragments/$$bn.tmp" >> "$(OUT_DIR)/book/fragments/$$bn"; \
+		rm -f "$(OUT_DIR)/book/fragments/$$bn.tmp"; \
 	done
 	@echo "Concatenating fragments into master LaTeX..."
 	@# Concatenate: header, front matter (00_*), content (non-00_*), footer
@@ -97,6 +102,14 @@ book-fragments: $(OUT_DIR)/book
 book: $(OUT_DIR)/book book-fragments
 	@echo "Cleaning old LaTeX aux files and compiling master book PDF with $(PDF_ENGINE) (non-interactive)..."
 	@cd $(OUT_DIR)/book && rm -f book.aux book.toc book.log book.out book.pdf || true
+	@cd $(OUT_DIR)/book && if [ "$(FAIL_ON_ERROR)" = "1" ]; then \
+		$(PDF_ENGINE) -interaction=nonstopmode -file-line-error book.tex >book.log 2>&1; \
+		else \
+		$(PDF_ENGINE) -interaction=nonstopmode -file-line-error book.tex >book.log 2>&1 || true; \
+		fi
+	@echo "Updating TOC with page numbers from AUX..."
+	@python3 $(TOC_SCRIPT) --aux "$(OUT_DIR)/book/book.aux"
+	@$(MAKE) book-fragments
 	@cd $(OUT_DIR)/book && if [ "$(FAIL_ON_ERROR)" = "1" ]; then \
 		$(PDF_ENGINE) -interaction=nonstopmode -file-line-error book.tex >book.log 2>&1; \
 		else \
@@ -149,3 +162,13 @@ book-debug:
 draft:
 	@echo "Running draft build (includes front-matter debug info)..."
 	@$(MAKE) DRAFT=1 book
+
+# Generate/refresh the Table of Contents page (00_05_TOC.md) before rendering fragments
+.PHONY: toc
+toc:
+	@echo "Generating manuscript Table of Contents (00_05_TOC.md)..."
+	@if [ -f $(OUT_DIR)/book/book.aux ]; then \
+		python3 $(TOC_SCRIPT) --aux "$(OUT_DIR)/book/book.aux"; \
+	else \
+		python3 $(TOC_SCRIPT); \
+	fi
