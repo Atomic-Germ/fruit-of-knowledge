@@ -1,6 +1,6 @@
 ---
 slug: chapter-02-intro
-number: 02
+number: 02.0
 title: Who Do You Love?
 status: draft
 updated: 2025-10-13

@@ -30,7 +30,6 @@ First Edition: [Month 2025]
 
 Published by Exit Garden Publications\\
 Buckley, WA\\
-www.exit.gdn/publications
 
 \vspace{0.25in}
 

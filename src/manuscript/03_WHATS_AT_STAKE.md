@@ -1,10 +1,8 @@
 ---
 slug: whats-at-stake
-number: 01.3
+number: 00.3
 title: What's At Stake? (Other than You)
 status: draft
-right_sources: []
-left_sources: []
 updated: 2025-10-13
 public_only_check: ok
 ---

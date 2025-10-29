@@ -1,10 +1,8 @@
 ---
 slug: eating-the-fruit
-number: 01.2
+number: 00.2
 title: Eating the Fruit
 status: draft
-right_sources: []
-left_sources: []
 updated: 2025-10-13
 public_only_check: ok
 ---

@@ -1,7 +1,0 @@
----
-title: ""
----
-
-\thispagestyle{empty}
-\
-\clearpage
