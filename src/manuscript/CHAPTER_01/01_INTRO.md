@@ -3,10 +3,10 @@ slug: chapter-01-intro
 number: 01.0
 title: Introduction
 status: draft
-updated: 2025-10-22
+updated: 2025-10-29
 ---
 
-There is a particular way this book is intended to be used. Something of a workbook, but not intended to give you the right answer to anything. The basic conviction of the spirit is that you **already know all of this**.
+This is in fact something of a workbook, something of a sermon, and something of a mirror; but not intended to **give** you the right answer to anything. The basic conviction of the spirit is that you **already know all of this**.
 You just need to be invited to remember it, and practice it, in ways that reorient -- that is, repent -- your heart and mind.
 
 This first set of spreads is focused on the ideas of power and leadership. Each spread juxtaposes a common or received teaching in the world of Christianity or greater society against an excerpt of Jesus' words. These are followed by reflective questions and a small practice you can use to actively experience what Jesus meant in his words. The aim is to invite you to take part in meaningful self-experiments that test how gospel-shaped practices bring about the changes we wish to embody.
