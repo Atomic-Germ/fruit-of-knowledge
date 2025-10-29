@@ -1,7 +1,7 @@
 # Summary
 
 ## Structure
-- [Book Plan](./planning/BOOK_PLAN.md)
+
 - [Chapter 1](./planning/CHAPTER_01_PLAN.md)
   - [Spread 01](./manuscript/CHAPTER_01/SPREAD_01.md)
   - [Spread 02](./manuscript/CHAPTER_01/SPREAD_02.md)
@@ -62,4 +62,4 @@
   - [Spread 01](./manuscript/CHAPTER_15/SPREAD_01.md)
   - [Spread 02](./manuscript/CHAPTER_15/SPREAD_02.md)
   - [Spread 03](./manuscript/CHAPTER_15/SPREAD_03.md)
-- [Appendix A](./planning/APPENDIX_A_PLAN.md)
+- [Appendix A](./manuscript/APPENDIX.md)
