@@ -15,3 +15,26 @@ It is crucial to approach this chapter with an open mind and a willingness to en
 In trying to more consciously understand and more thoroughly embody the intention we all know to be true in our hearts, we can more fully experience and enjoy being a creature of love. The very mold and model for humanity was _always_ meant to be love, for its own cherished sake.
 
 This set of spreads works just like the Chapter 01 set.
+
+::: aside
+Days 1–3: One spread per day:
+
+>02.1 Who Is My Neighbor? (Luke 10:29–37)
+>
+>* Focus: Mercy beyond boundaries; neighbor defined by need.
+>* Try today: Share time, money, or advocacy with one out‑group person.
+>
+>02.2 Love Your Enemies (Matt 5:43–48)
+>
+>* Focus: Move beyond reciprocity; love that resembles the Father.
+>* Try tomorrow: Pray blessing over one “enemy” and take one non‑retaliatory step toward good.
+>
+>02.3 Forgive Without Counting (Matt 18:21–22)
+>
+>* Focus: Release the ledger; mercy beyond deserts.
+>* Try next: Let go of one debt without demanding apology or payback.
+
+Days 4–6: Repeat any one practice daily; note what shifts in you and your context.
+
+Day 7: Review your notes; name one assumption about love that changed. If you attend a service, notice how these ideas show up or change how you hear it.
+:::

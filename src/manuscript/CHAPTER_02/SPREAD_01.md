@@ -38,6 +38,10 @@ Boundary‑limited care vs. mercy‑defined neighbor.
 
 Plan and execute one act of mercy toward an outsider this week.
 
+::: aside
+Next: [02.2 Love Your Enemies](./SPREAD_02.md). Tomorrow, pray blessing over one “enemy” and take one non‑retaliatory step toward good.
+:::
+
 ## Notes
 
 ---
