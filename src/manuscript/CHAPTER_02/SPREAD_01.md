@@ -1,39 +1,46 @@
 ---
-slug: enemies-love-your-enemies
+slug: enemies-who-is-my-neighbor
 number: 02.1
-title: Love Your Enemies
+title: Who Is My Neighbor?
 status: draft
-right_sources: ["Matt 5:43–48 (ASV)"]
+right_sources: ["Luke 10:29–37 (ASV)"]
 left_sources:
-  - {title: Protect your own; enemies deserve what they get, type: paraphrase, permission: none}
-updated: 2025-10-10
+  - {title: Help your own first; outsiders aren’t your responsibility, type: paraphrase, permission: none}
+updated: 2025-10-11
 public_only_check: ok
 ---
 
 ## Received Teaching
+
 ::: aside
-"Protect your own; enemies deserve what they get."[^6]
+"Help your own first; outsiders aren’t your responsibility."[^10]
 :::
 
 ## Jesus’ Public Words
+
 ::: aside
-"Ye have heard that it was said, Thou shalt love thy neighbor, and hate thine enemy: but I say unto you, love your enemies, and pray for them that persecute you; that ye may be sons of your Father who is in heaven: for he maketh his sun to rise on the evil and the good, and sendeth rain on the just and the unjust. For if ye love them that love you, what reward have ye? do not even the publicans the same? And if ye salute your brethren only, what do ye more than others? do not even the Gentiles the same? Ye therefore shall be perfect, as your heavenly Father is perfect."[^7]
+Jesus said, "A certain man was going down from Jerusalem to Jericho; and he fell among robbers, who both stripped him and beat him, and departed, leaving him half dead. And by chance a certain priest was going down that way: and when he saw him, he passed by on the other side. And in like manner a Levite also, when he came to the place, and saw him, passed by on the other side. But a certain Samaritan, as he journeyed, came where he was: and when he saw him, he was moved with compassion, and came to him, and bound up his wounds, pouring on oil and wine; and he set him on his own beast, and brought him to an inn, and took care of him. And on the morrow he took out two shillings, and gave them to the host, and said, Take care of him; and whatsoever thou spendest more, I, when I come back again, will repay thee."[^11]
 :::
+::: {.right}
 
 ## Tension
-Preferential love vs. indiscriminate love.
+
+Boundary‑limited care vs. mercy‑defined neighbor.
 
 ## Reflection
-1. Observe: Who falls into your “enemy/opponent” category right now?
-2. Empathize: What would blessing them look like from their perspective?
-3. Act: Offer one concrete good to an opponent this week.
+
+1. Observe: Who functions as your “Samaritan/outsider” today?
+2. Empathize: What mercy would you want if you were in their place?
+3. Act: Share time, money, or advocacy with one out‑group person.
+:::
 
 ## Practice
-Daily: speak a blessing and perform one small good deed toward an opponent.
+
+Plan and execute one act of mercy toward an outsider this week.
 
 ## Notes
 
 ---
 
-[^6]:Common maxim prioritizing in-group Loyalty framed as virtue that excludes opponents.
-[^7]:**Matthew 5:43–48 (ASV)**, Sermon on the Mount, public.
+[^10]: Common boundary-limited charity principle. Prioritizes in-group obligations over mercy.
+[^11]: **Luke 10:30–35 (ASV)**, Public exchange with a lawyer; a man is robbed; religious passerby avoid; a Samaritan shows mercy and provides care.
