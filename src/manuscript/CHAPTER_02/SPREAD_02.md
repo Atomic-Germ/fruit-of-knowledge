@@ -23,9 +23,6 @@ public_only_check: ok
 :::
 ::: {.right}
 
-## Tension
-
-Reciprocal love vs. indiscriminate, enemy‑embracing love.
 
 ## Reflection
 
@@ -33,14 +30,9 @@ Reciprocal love vs. indiscriminate, enemy‑embracing love.
 2. Empathize: What would you hope for if your worst moment defined you to others?
 3. Act: Pray blessing over one “enemy” and take one non‑retaliatory step toward good.
 
-:::
-
 ## Practice
 
 For three days, name one person you resent. Each day: pray for their good, speak no ill of them, and do one small unseen kindness that removes harm.
-
-::: aside
-Previous: [02.1 Who Is My Neighbor?](./SPREAD_01.md). Next: [02.3 Forgive Without Counting](./SPREAD_03.md). On Days 4–6, repeat whichever practice most stretches your love.
 :::
 
 ## Notes

@@ -5,7 +5,7 @@ title: Authority vs. Status
 status: draft
 right_sources: ["Matt 23:8–12 (ASV)"]
 left_sources:
-  - {title: Titles confer spiritual authority, type: paraphrase, permission: none}
+ - {title: Titles confer spiritual authority, type: paraphrase, permission: none}
 updated: 2025-10-10
 public_only_check: ok
 ---
@@ -14,7 +14,9 @@ public_only_check: ok
 
 ::: aside
 "Titles confer spiritual authority."[^2]
-:::
+
+From the pastor to the pope, spiritual authority has always been associated with given titles. Teachers and authorities of all kinds are deferred to by default.
+::: 
 
 ## Jesus’ Public Words
 
@@ -23,9 +25,6 @@ public_only_check: ok
 :::
 ::: {.right}
 
-## Tension
-
-Status titles vs. leveling language of siblings.
 
 ## Reflection
 

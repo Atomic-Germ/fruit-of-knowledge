@@ -23,7 +23,7 @@ TEST_SCRIPT ?= tests/convert_examples.sh
 TOC_SCRIPT ?= scripts/generate_toc.py
 
 # Repeated tasks
-.PHONY: build clean convert convert-all test book book-fragments book-dry print-ready book-ci toc
+.PHONY: build-watch build clean convert convert-all test book book-fragments book-dry print-ready book-ci toc
 .PHONY: list-book-fragments list-spreads test-order
 
 # Build the book (uses mdbook by default)
@@ -172,3 +172,15 @@ toc:
 	else \
 		python3 $(TOC_SCRIPT); \
 	fi
+plugins:
+	@set -e
+	if command -v dnf >/dev/null 2>&1; then \
+		sudo dnf install -y texlive-texlive-inputenc texlive-texlive-fontenc texlive-texlive-footnote || true; \
+	elif command -v apt-get >/dev/null 2>&1; then \
+		sudo apt-get update && sudo apt-get install -y texlive-texlive-inputenc texlive-texlive-fontenc texlive-texlive-footnote || sudo apt-get install -y texlive-latex-extra; \
+	elif command -v tlmgr >/dev/null 2>&1; then \
+		tlmgr install texlive-inputenc texlive-fontenc texlive-footnote; \
+	else \
+		echo "No supported package manager found (dnf/apt-get/tlmgr). Please install texlive packages manually."; exit 1; \
+	fi
+

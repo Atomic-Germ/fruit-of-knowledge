@@ -6,7 +6,7 @@ title: ""
 \vspace*{2in}
 
 \begin{center}
-{\Huge\bfseries Fruit of Knowledge}
+{\Huge\bfseries Book of Knowledge}
 
 \vspace{0.5in}
 

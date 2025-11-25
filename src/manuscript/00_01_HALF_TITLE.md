@@ -16,7 +16,7 @@ title: ""
 \vspace*{\fill}
 
 \begin{center}
-\textit{Fruit of Knowledge}
+\textit{Book of Knowledge}
 \end{center}
 
 \vspace*{\fill}
