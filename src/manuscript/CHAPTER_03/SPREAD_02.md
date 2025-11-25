@@ -12,7 +12,7 @@ public_only_check: ok
 
 ## Received Teaching
 ::: aside
-"Worry is responsible; planning requires constant vigilance."[^14]
+"Worry is responsible; planning requires constant vigilance."[^14] Prudent advice often frames anxiety as necessary for provision. Planning for future needs is seen as a responsible act that requires ongoing attention and concern, and worrying is accepted as a signal of care and foresight.
 :::
 
 
@@ -20,9 +20,6 @@ public_only_check: ok
 ::: aside
 "Therefore I say unto you, be not anxious for your life, what ye shall eat, or what ye shall drink; nor yet for your body, what ye shall put on. [...] Behold the birds of the heaven, that they sow not, neither do they reap, nor gather into barns; and your heavenly Father feedeth them. [...] O ye of little faith Be not therefore anxious [...] Be not therefore anxious for the morrow: for the morrow will be anxious for itself. Sufficient unto the day is the evil thereof."[^15]
 :::
-
-## Tension
-Anxiety-driven control vs. trust with focused action.
 
 ## Reflection
 1. Observe: Name your core provision fear this week.

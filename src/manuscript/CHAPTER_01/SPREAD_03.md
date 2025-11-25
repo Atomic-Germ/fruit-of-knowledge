@@ -13,7 +13,7 @@ public_only_check: pending
 ## Received Teaching
 
 ::: aside
-"Leaders must be waited on to show their legitimacy."[^4]
+"Leaders must be waited on to show their legitimacy."[^4] Stands as a widespread cultural assumption about honor and leadership; visible service and deference are treated as proof of authority.
 :::
 
 ## Jesus’ Public Words
@@ -22,10 +22,6 @@ public_only_check: pending
 "But he said unto them, The kings of the Gentiles exercise lordship over them; and they that have authority over them are called benefactors. Not so shall it be among you: but he that is greatest among you, let him be as the younger; and he that is chief, as he that doth serve. For whether is greater, he that sitteth at meat, or he that serveth? is not he that sitteth at meat? but I am among you as he that serveth."[^5]
 :::
 ::: {.right}
-
-## Tension
-
-Being waited on as a sign of legitimacy vs. embodying service as leadership.
 
 ## Reflection
 
