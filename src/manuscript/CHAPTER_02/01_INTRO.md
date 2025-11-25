@@ -10,7 +10,7 @@ This chapter aims to impart an understanding of love _agape_ (ah-gah-pay); the s
 
 Most readers will feel hesitant or resistant to exercises that ask for a true emotional investment and experience. In this chapter the exercises demand that we behave in ways that may be counterintuitive or feel strange to our natural inclinations. And that's again because we are so decidedly human.
 
-It is crucial to approach this chapter with an open mind and a willingness to engage in self-reflection and personal growth. Embodying the principles of agape love can lead to profound changes in how we relate to others and ourselves, and a compassionate worldview more in line with Jesus.
+It is crucial to approach this chapter with an open mind and a willingness to engage in self-reflection and personal growth. Embodying the principles of agape love can lead to profound changes in how we relate to others and ourselves, and a compassionate worldview more in line with what Jesus showed by example and taught via parable.
 
 In trying to more consciously understand and more thoroughly embody the intention we all know to be true in our hearts, we can more fully experience and enjoy being a creature of love. The very mold and model for humanity was _always_ meant to be love, for its own cherished sake.
 
