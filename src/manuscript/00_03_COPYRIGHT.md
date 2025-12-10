@@ -24,12 +24,12 @@ ISBN: [ISBN-10]
 
 \vspace{0.25in}
 
-First Edition: [Month 2025]
+First Edition: [Month 2026]
 
 \vspace{0.25in}
 
 Published by Exit Garden Publications\\
-Buckley, WA\\
+Washington, USA\\
 
 \vspace{0.25in}
 

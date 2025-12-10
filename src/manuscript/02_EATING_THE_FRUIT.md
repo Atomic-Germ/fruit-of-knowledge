@@ -4,7 +4,7 @@ number: 00.2
 title: Eating the Fruit
 status: draft
 updated: 2025-10-13
-public*only*check: ok
+public_only_check: ok
 ---
 
 So you've chosen to eat the fruit, knowing what it is? In a sense, there is a death that comes with following the pattern and path of Jesus, who in scripture has been called the new Light Bringer, or "Lucifer"; a term that means the one who opens our eyes, and not a proper name itself. 
